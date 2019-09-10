@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>

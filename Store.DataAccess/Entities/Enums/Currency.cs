@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Store.DataAccess.Entities.Enums
 {
-    public enum Currency
+    public partial class Enums
     {
+        public enum Currency
+        {
+        }
     }
 }
