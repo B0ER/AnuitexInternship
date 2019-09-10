@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Store.DataAccess.Entities;
+using Store.DataAccess.Initialization;
 
 namespace Store.DataAccess.AppContext
 {
@@ -16,6 +17,12 @@ namespace Store.DataAccess.AppContext
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            BaseSeedData.AddRoles(builder);
         }
     }
 }
