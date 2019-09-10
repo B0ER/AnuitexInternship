@@ -5,6 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Store.BussinesLogic.Common;
+using Store.Presentation.Middlewares;
+using System.IO;
 
 namespace Store.Presentation
 {
@@ -20,7 +24,11 @@ namespace Store.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            //add logger provider
+            var logProvider = new ApplicationLoggerProvider(Path.Combine(Directory.GetCurrentDirectory(), "log.txt"));
+            services.AddLogging(factory => factory.AddProvider(logProvider));
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -39,12 +47,15 @@ namespace Store.Presentation
             else
             {
                 app.UseExceptionHandler("/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+
+            app.UseMiddleware<LoggingMiddleware>();
 
             app.UseMvc(routes =>
             {
