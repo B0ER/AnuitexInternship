@@ -17,21 +17,5 @@ namespace Store.DataAccess.AppContext
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Entity<AuthorInBook>().HasKey(aib => new { aib.AuthorId, aib.PrintingEditionId });
-
-            builder.Entity<AuthorInBook>()
-                .HasOne<Author>(aib => aib.Author)
-                .WithMany(s => s.AuthorsBooks)
-                .HasForeignKey(aib => aib.AuthorId);
-
-
-            builder.Entity<AuthorInBook>()
-                .HasOne<PrintingEdition>(aib => aib.PrintingEdition)
-                .WithMany(pe => pe.AuthorsBooks)
-                .HasForeignKey(aib => aib.PrintingEditionId);
-        }
     }
 }
