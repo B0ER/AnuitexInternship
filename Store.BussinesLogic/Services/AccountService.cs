@@ -1,21 +1,18 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Store.BussinesLogic.Model.User.Request;
 using Store.DataAccess.Entities;
-using Store.DataAccess.Repositories.Interfaces;
-using System;
-using System.Threading.Tasks;
 
 namespace Store.BussinesLogic.Services.AccountService
 {
     public class AccountService
     {
-        private IUnitOfWork _db;
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
 
-        public AccountService(IUnitOfWork db, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
-            _db = db;
             _userManager = userManager;
             _signInManager = signInManager;
         }
@@ -49,6 +46,33 @@ namespace Store.BussinesLogic.Services.AccountService
                 throw new InvalidOperationException();
             }
         }
+
+        public async Task ChangePassword(ApplicationUser user, UserChangePasswordModel passwordChangeRequest)
+        {
+            var result = await _userManager.ChangePasswordAsync(user, passwordChangeRequest.OldPassword, passwordChangeRequest.NewPasswordRepeate);
+            if (!result.Succeeded)
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
+        public async Task<string> ResetPassword(ApplicationUser user)
+        {
+            var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+            return resetToken;
+        }
+
+        public async Task AcceptResetPassword(long userId, string restoreToken, string newPassword)
+        {
+            var user = await _userManager.FindByIdAsync(userId.ToString());
+            var resultRestore = await _userManager.ResetPasswordAsync(user, restoreToken, newPassword);
+
+            if (!resultRestore.Succeeded)
+            {
+                throw new InvalidOperationException();
+            }
+        }
+
 
         public async void SignInAsync(UserSignUpModel userResponse)
         {
