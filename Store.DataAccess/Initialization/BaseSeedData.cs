@@ -18,7 +18,7 @@ namespace Store.DataAccess.Initialization
 
         public static async void AddAdmins(UserManager<ApplicationUser> userManager)
         {
-            //TODO: rewrite
+            //todo: rewrite to di with rolemanager and usermanager
 
             var admin = new ApplicationUser { UserName = Constants.Roles.Admin };
             await userManager.CreateAsync(admin);

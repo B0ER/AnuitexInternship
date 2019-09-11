@@ -12,7 +12,7 @@ namespace Store.DataAccess.AppContext
         public DbSet<Author> Authors { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<AuthorInBook> AuthorInBooks{ get; set; }
+        public DbSet<AuthorInBook> AuthorInBooks { get; set; }
 
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)

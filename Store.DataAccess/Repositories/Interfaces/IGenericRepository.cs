@@ -7,7 +7,7 @@ namespace Store.DataAccess.Repositories.Interfaces
 {
     internal interface IGenericRepository<TItem> where TItem : BaseEntity
     {
-        IEnumerable<TItem> GetAll();
+        IEnumerable<TItem> GetAll(); //todo: add -async names
         TItem FindById(long id);
         void Add(TItem item);
         void Delete(TItem item);

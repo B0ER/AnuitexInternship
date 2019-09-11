@@ -18,6 +18,7 @@ namespace Store.DataAccess.Repositories.Base
 
         public void Add(TItem item)
         {
+            //todo: rewrite all methods to async methods
             _db.Add<TItem>(item);
         }
 
