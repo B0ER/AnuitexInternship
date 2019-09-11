@@ -18,7 +18,9 @@ namespace Store.BussinesLogic.Common
         public ILogger CreateLogger(string categoryName)
         {
             if (_logger == null)
+            {
                 _logger = new ApplicationLogger(_filePath);
+            }
             return _logger;
         }
 

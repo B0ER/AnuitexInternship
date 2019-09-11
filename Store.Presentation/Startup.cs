@@ -1,18 +1,16 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Store.BussinesLogic.Common;
-using Store.DataAccess.AppContext;
 using Store.DataAccess.Dependency_Injection;
-using Store.DataAccess.Entities;
+using Store.BussinesLogic.DependencyInjection;
 using Store.Presentation.Middlewares;
 using System.IO;
+using Store.BussinesLogic.Options;
 
 namespace Store.Presentation
 {
@@ -34,6 +32,9 @@ namespace Store.Presentation
 
             //add identity
             services.AddApplicationDatabase(Configuration);
+            
+            services.Configure<EmailOptions>(Configuration.GetSection("SmtpConfiguration")); //add EmailOptions
+            services.AddEmailSender();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
