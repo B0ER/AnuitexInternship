@@ -1,14 +1,13 @@
 ﻿using Store.DataAccess.AppContext;
 using Store.DataAccess.Entities.Base;
 using Store.DataAccess.Repositories.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace Store.DataAccess.Repositories.Base
 {
-    public abstract class BaseRepository<TItem> : IGenericRepository<TItem> where TItem : BaseEntity
+    public class BaseRepository<TItem> : IGenericRepository<TItem> where TItem : BaseEntity
     {
         private ApplicationDbContext _db;
         public BaseRepository(ApplicationDbContext db)
@@ -16,36 +15,38 @@ namespace Store.DataAccess.Repositories.Base
             _db = db;
         }
 
-        public void Add(TItem item)
+        public async Task AddAsync(TItem item)
         {
-            //todo: rewrite all methods to async methods
-            _db.Add<TItem>(item);
+            await _db.AddAsync<TItem>(item);
         }
 
-        public void Delete(TItem item)
+        public async Task DeleteAsync(TItem item)
         {
-            _db.Remove<TItem>(item);
+            await Task.Run(() =>
+            {
+                _db.Remove<TItem>(item);
+            });
         }
 
-        public void DeleteById(long id)
+        public async Task DeleteByIdAsync(long id)
         {
-            var deletedItem = _db.Set<TItem>().Find(id);
-            _db.Remove(deletedItem);
+            var deletedItem = await _db.FindAsync<TItem>(id);
+            await Task.Run(() => _db.Remove<TItem>(deletedItem));
         }
 
-        public TItem FindById(long id)
+        public async Task<TItem> FindByIdAsync(long id)
         {
-            return _db.Set<TItem>().Find(id);
+            return await _db.FindAsync<TItem>(id);
         }
 
-        public IEnumerable<TItem> GetAll()
+        public async Task<IEnumerable<TItem>> GetAllAsync()
         {
-            return _db.Set<TItem>().ToList();
+            return await Task.Run(() => _db.Set<TItem>().ToList());
         }
 
-        public void Update(TItem item)
+        public async Task UpdateAsync(TItem item)
         {
-            _db.Update<TItem>(item);
+            await Task.Run(() => _db.Update<TItem>(item));
         }
     }
 }

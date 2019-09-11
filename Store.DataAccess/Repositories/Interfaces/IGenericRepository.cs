@@ -2,16 +2,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Store.DataAccess.Repositories.Interfaces
 {
-    internal interface IGenericRepository<TItem> where TItem : BaseEntity
+    public interface IGenericRepository<TItem> where TItem : BaseEntity
     {
-        IEnumerable<TItem> GetAll(); //todo: add -async names
-        TItem FindById(long id);
-        void Add(TItem item);
-        void Delete(TItem item);
-        void DeleteById(long id);
-        void Update(TItem item);
+        Task<IEnumerable<TItem>> GetAllAsync(); //todo: add -async names
+        Task<TItem> FindByIdAsync(long id);
+        Task AddAsync(TItem item);
+        Task DeleteAsync(TItem item);
+        Task DeleteByIdAsync(long id);
+        Task UpdateAsync(TItem item);
     }
 }
