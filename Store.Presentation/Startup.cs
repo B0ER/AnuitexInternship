@@ -3,10 +3,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Store.BussinesLogic.Common;
+using Store.DataAccess.AppContext;
+using Store.DataAccess.Dependency_Injection;
+using Store.DataAccess.Entities;
 using Store.Presentation.Middlewares;
 using System.IO;
 
@@ -27,6 +31,9 @@ namespace Store.Presentation
             //add logger provider
             var logProvider = new ApplicationLoggerProvider(Path.Combine(Directory.GetCurrentDirectory(), "log.txt"));
             services.AddLogging(factory => factory.AddProvider(logProvider));
+
+            //add identity
+            services.AddApplicationDatabase(Configuration);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
@@ -56,6 +63,7 @@ namespace Store.Presentation
             app.UseSpaStaticFiles();
 
             app.UseMiddleware<LoggingMiddleware>();
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

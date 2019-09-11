@@ -18,8 +18,15 @@ namespace Store.Presentation.Middlewares
 
         public async Task InvokeAsync(HttpContext context)
         {
-            await _next.Invoke(context);
-            _logger.LogDebug($"[{DateTime.UtcNow}]: {context.Request.Path} - {context.Response.StatusCode}");
+            try
+            {
+                await _next.Invoke(context);
+                _logger.LogDebug($"[{DateTime.UtcNow}]: {context.Request.Path} - {context.Response.StatusCode}");
+            }
+            catch (Exception ex) //here place custom exception
+            {
+                throw;
+            }
         }
     }
 }
