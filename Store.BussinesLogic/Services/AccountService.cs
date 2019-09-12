@@ -3,19 +3,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Store.BussinesLogic.Model.User.Request;
 using Store.DataAccess.Entities;
+using Store.DataAccess.Repositories.Interfaces;
 
 namespace Store.BussinesLogic.Services.AccountService
 {
     public class AccountService
     {
-        //todo: simple crud-operation("createAsync") replace to reepository
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
 
-        public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        private IUserRepository _userRepository;
+
+        public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IUserRepository userRepository)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _userRepository = userRepository;
         }
 
         public async Task<string> SignUpAsync(UserSignUpModel newUserResponse)
@@ -26,12 +29,7 @@ namespace Store.BussinesLogic.Services.AccountService
                 UserName = newUserResponse.Email
             };
 
-            var resultReg = await _userManager.CreateAsync(newUser, newUserResponse.Password);
-
-            if (!resultReg.Succeeded)
-            {
-                throw new InvalidOperationException();
-            }
+            await _userRepository.AddAsync(newUser, newUserResponse.Password);
 
             var code = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
             return code;
@@ -39,7 +37,8 @@ namespace Store.BussinesLogic.Services.AccountService
 
         public async void ConfirmEmail(long userId, string code)
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
+            var user = await _userRepository.FindByIdAsync(userId);
+
             var resultConfirm = await _userManager.ConfirmEmailAsync(user, code);
 
             if (!resultConfirm.Succeeded)
@@ -65,7 +64,7 @@ namespace Store.BussinesLogic.Services.AccountService
 
         public async Task AcceptResetPassword(long userId, string restoreToken, string newPassword)
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
+            var user = await _userRepository.FindByIdAsync(userId);
             var resultRestore = await _userManager.ResetPasswordAsync(user, restoreToken, newPassword);
 
             if (!resultRestore.Succeeded)
