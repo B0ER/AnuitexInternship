@@ -8,7 +8,7 @@ namespace Store.DataAccess.Repositories.Interfaces
 {
     public interface IGenericRepository<TItem> where TItem : class
     {
-        Task<IEnumerable<TItem>> GetAllAsync(); //todo: add -async names
+        Task<IEnumerable<TItem>> GetAllAsync();
         Task<TItem> FindByIdAsync(long id);
         Task AddAsync(TItem item);
         Task DeleteAsync(TItem item);

@@ -1,13 +1,14 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Store.BussinesLogic.Model.User.Request;
+using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;
+using System;
+using System.Threading.Tasks;
 
 namespace Store.BussinesLogic.Services.AccountService
 {
-    public class AccountService
+    public class AccountService : IAccountService
     {
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
@@ -35,7 +36,23 @@ namespace Store.BussinesLogic.Services.AccountService
             return code;
         }
 
-        public async void ConfirmEmail(long userId, string code)
+        public async Task<string> SignInAsync(UserSignInModel userRequest)
+        {
+            var result = await _signInManager.PasswordSignInAsync(userRequest.Email, userRequest.Password, userRequest.RememberMe, false);
+
+            if (!result.Succeeded)
+            {
+                throw new InvalidOperationException();
+            }
+
+            ApplicationUser user = await _userManager.FindByEmailAsync(userRequest.Email);
+            _signInManager.SignInAsync(user, false);
+
+            //todo: add jwt
+            return "";
+        }
+
+        public async Task ConfirmEmailAsync(long userId, string code)
         {
             var user = await _userRepository.FindByIdAsync(userId);
 
@@ -47,7 +64,7 @@ namespace Store.BussinesLogic.Services.AccountService
             }
         }
 
-        public async Task ChangePassword(ApplicationUser user, UserChangePasswordModel passwordChangeRequest)
+        public async Task ChangePasswordAsync(ApplicationUser user, UserChangePasswordModel passwordChangeRequest)
         {
             var result = await _userManager.ChangePasswordAsync(user, passwordChangeRequest.OldPassword, passwordChangeRequest.NewPasswordRepeate);
             if (!result.Succeeded)
@@ -56,13 +73,13 @@ namespace Store.BussinesLogic.Services.AccountService
             }
         }
 
-        public async Task<string> ResetPassword(ApplicationUser user)
+        public async Task<string> ResetPasswordAsync(ApplicationUser user)
         {
             var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
             return resetToken;
         }
 
-        public async Task AcceptResetPassword(long userId, string restoreToken, string newPassword)
+        public async Task AcceptResetPasswordAsync(long userId, string restoreToken, string newPassword)
         {
             var user = await _userRepository.FindByIdAsync(userId);
             var resultRestore = await _userManager.ResetPasswordAsync(user, restoreToken, newPassword);
@@ -73,21 +90,15 @@ namespace Store.BussinesLogic.Services.AccountService
             }
         }
 
-
-        public async void SignInAsync(UserSignUpModel userResponse)
-        {
-            var result = await _signInManager.PasswordSignInAsync(userResponse.Email, userResponse.Password, userResponse.RememberMe, false);
-
-            if (result.Succeeded)
-            {
-                ApplicationUser user = await _userManager.FindByEmailAsync(userResponse.Email);
-                _signInManager.SignInAsync(user, false);
-            }
-        }
-
-        public async Task LogOut()
+        public async Task LogOutAsync()
         {
             await _signInManager.SignOutAsync();
+        }
+
+        public async Task<ApplicationUser> GetMeAsync(long userId)
+        {
+            //todo: add dto
+            return await _userRepository.FindByIdAsync(userId);
         }
     }
 }

@@ -12,7 +12,5 @@ namespace Store.BussinesLogic.Model.User.Request
         [Required]
         [Compare("Password", ErrorMessage = "Password isn't same")]
         public string PasswordRepeat { get; set; }
-
-        public bool RememberMe { get; set; } = false;
     }
 }
