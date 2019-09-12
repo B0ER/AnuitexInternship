@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store.DataAccess.Repositories.Interfaces
 {
-    public interface IGenericRepository<TItem> where TItem : BaseEntity
+    public interface IGenericRepository<TItem> where TItem : class
     {
         Task<IEnumerable<TItem>> GetAllAsync(); //todo: add -async names
         Task<TItem> FindByIdAsync(long id);
