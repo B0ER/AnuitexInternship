@@ -8,6 +8,7 @@ namespace Store.BussinesLogic.Services.AccountService
 {
     public class AccountService
     {
+        //todo: simple crud-operation("createAsync") replace to reepository
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
 
