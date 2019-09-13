@@ -11,7 +11,7 @@ namespace Store.DataAccess.Dependency_Injection
         public static void AddApplicationDatabase(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(configuration["DefaultConnection"]));
 
             services.AddIdentity<ApplicationUser, Role>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();

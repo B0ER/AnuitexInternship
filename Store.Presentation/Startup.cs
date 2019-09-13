@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -5,14 +6,14 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Store.BussinesLogic.Common;
-using Store.DataAccess.Dependency_Injection;
 using Store.BussinesLogic.DependencyInjection;
+using Store.BussinesLogic.Options;
+using Store.DataAccess.Dependency_Injection;
+using Store.DataAccess.DependencyInjection;
 using Store.Presentation.Middlewares;
 using System.IO;
-using Store.BussinesLogic.Options;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Options;
 
 namespace Store.Presentation
 {
@@ -56,6 +57,10 @@ namespace Store.Presentation
             //add EmailOptions
             services.Configure<EmailOptions>(Configuration.GetSection("SmtpConfiguration"));
             services.AddEmailSender();
+
+            services.AddRepository();
+            services.AddHelpers();
+            services.AddServices();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 

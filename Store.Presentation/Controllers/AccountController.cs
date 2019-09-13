@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +8,7 @@ using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.Presentation.Controllers.Base;
+using System.Threading.Tasks;
 
 namespace Store.Presentation.Controllers
 {
@@ -29,14 +26,15 @@ namespace Store.Presentation.Controllers
             _emailSender = emailSender;
         }
 
-        [HttpPost("[action]")]
-        public async Task<IActionResult> SignInAsync(UserSignInModel userRequest)
+        [HttpPost("sign-in")]
+        public async Task<ActionResult<BaseItemResponse<JwtAuthModel>>> SignInAsync(UserSignInModel userRequest)
         {
             JwtAuthModel token = await _accountService.SignInAsync(userRequest);
-            return Ok(BaseItemResponse<JwtAuthModel>.CreateResponse(token));
+            //todo: rewrite response model
+            return BaseItemResponse<JwtAuthModel>.CreateResponse(token);
         }
 
-        [HttpPost("[action]")]
+        [HttpPost("sign-up")]
         public async Task<IActionResult> SignUpAsync(UserSignUpModel newUserRequest)
         {
             var newUser = await _accountService.SignUpAsync(newUserRequest);

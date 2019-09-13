@@ -14,6 +14,7 @@ namespace Store.BussinesLogic.Services.AccountService
 {
     public class AccountService : IAccountService
     {
+        //todo: readonly
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
         private IUserRepository _userRepository;
@@ -30,15 +31,15 @@ namespace Store.BussinesLogic.Services.AccountService
             _jwtManager = jwtManager;
         }
 
-        public async Task<ApplicationUser> SignUpAsync(UserSignUpModel newUserResponse)
+        public async Task<ApplicationUser> SignUpAsync(UserSignUpModel userResponse)
         {
             var newUser = new ApplicationUser
             {
-                Email = newUserResponse.Email,
-                UserName = newUserResponse.Email
+                Email = userResponse.Email,
+                UserName = userResponse.Email
             };
 
-            await _userRepository.AddAsync(newUser, newUserResponse.Password);
+            await _userRepository.AddAsync(newUser, userResponse.Password);
 
             return newUser;
         }

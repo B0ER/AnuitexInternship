@@ -23,7 +23,7 @@ namespace Store.Presentation.Middlewares
                 await _next.Invoke(context);
                 _logger.LogDebug($"[{DateTime.UtcNow}]: {context.Request.Path} - {context.Response.StatusCode}");
             }
-            catch (Exception ex) //here place custom exception
+            catch (Exception ex)
             {
                 throw;
             }

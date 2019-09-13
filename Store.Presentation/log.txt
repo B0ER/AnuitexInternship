@@ -54,3 +54,1388 @@ Executed endpoint 'Store.Presentation.Controllers.SampleDataController.WeatherFo
 Request finished in 158.3157ms 200 application/json; charset=utf-8
 [9/13/2019 9:23:20 AM]: /sockjs-node/428/ndlyo23l/websocket - 101
 Request finished in 70869.2431ms 101 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58347...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 49.324ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58347"
+
+** Angular Live Development Server is listening on localhost:58347, open your browser on http://localhost:58347/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:09:51.553Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7519ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:09:51 PM]: / - 304
+Request finished in 11693.0861ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 1:09:51 PM]: /styles.css - 304
+Request finished in 97.8075ms 304 
+[9/13/2019 1:09:52 PM]: /polyfills.js - 304
+Request finished in 1049.9465ms 304 
+[9/13/2019 1:09:52 PM]: /vendor.js - 304
+[9/13/2019 1:09:52 PM]: /main.js - 304
+Request finished in 1073.6152ms 304 
+[9/13/2019 1:09:52 PM]: /runtime.js - 304
+Request finished in 1079.6582ms 304 
+Request finished in 1076.0158ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568380193081  
+[9/13/2019 1:09:53 PM]: /sockjs-node/info - 200
+Request finished in 17.8083ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/305/xkqobxnl/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/305/il3bd5sc/xhr_streaming?t=1568380193810  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/signinasync application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 3.9822ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 205.6367ms 500 text/html; charset=utf-8
+Connection id "0HLPO9EH9K8H5", Request id "0HLPO9EH9K8H5:00000001": the application completed without reading the entire request body.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58418...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 23.7467ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58418"
+
+** Angular Live Development Server is listening on localhost:58418, open your browser on http://localhost:58418/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:17:10.617Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7089ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:17:10 PM]: / - 304
+Request finished in 10646.3494ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 1:17:10 PM]: /polyfills.js - 304
+Request finished in 146.8085ms 304 
+[9/13/2019 1:17:11 PM]: /vendor.js - 304
+Request finished in 1086.2664ms 304 
+[9/13/2019 1:17:11 PM]: /runtime.js - 304
+[9/13/2019 1:17:11 PM]: /main.js - 304
+[9/13/2019 1:17:11 PM]: /styles.css - 304
+Request finished in 1058.5017ms 304 
+Request finished in 1114.5113ms 304 
+Request finished in 1095.9991ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568380632148  
+[9/13/2019 1:17:12 PM]: /sockjs-node/info - 200
+Request finished in 20.7589ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/325/qgu1rept/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/325/kr44n2tt/xhr_streaming?t=1568380632877  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/signinasync application/javascript 53
+[9/13/2019 1:17:16 PM]: /api/account/signinasync - 404
+Request finished in 23.165ms 404 text/html; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 5.4186ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 201.6392ms 500 text/html; charset=utf-8
+Connection id "0HLPO9IKF6EDT", Request id "0HLPO9IKF6EDT:00000003": the application completed without reading the entire request body.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58444...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/325/kr44n2tt/xhr_streaming?t=1568380657866  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58444"
+
+** Angular Live Development Server is listening on localhost:58444, open your browser on http://localhost:58444/ **
+
+[9/13/2019 1:17:49 PM]: /sockjs-node/325/kr44n2tt/xhr_streaming - 200
+Request finished in 10457.6929ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:17:49.209Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7033ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 2.7467ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 1:18:22 PM]: / - 304
+Request finished in 1031.9795ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 1:18:22 PM]: /polyfills.js - 304
+Request finished in 21.3807ms 304 
+[9/13/2019 1:18:23 PM]: /runtime.js - 304
+Request finished in 1012.8298ms 304 
+[9/13/2019 1:18:23 PM]: /vendor.js - 304
+[9/13/2019 1:18:23 PM]: /main.js - 304
+[9/13/2019 1:18:23 PM]: /styles.css - 304
+Request finished in 1017.4911ms 304 
+Request finished in 1022.8674ms 304 
+Request finished in 1037.8011ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568380704226  
+[9/13/2019 1:18:24 PM]: /sockjs-node/info - 200
+Request finished in 16.7741ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/009/mldj0dhg/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/009/icrxdnf4/xhr_streaming?t=1568380704947  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 4.453ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 146.9405ms 500 text/html; charset=utf-8
+Connection id "0HLPO9J006TJO", Request id "0HLPO9J006TJO:00000002": the application completed without reading the entire request body.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58470...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/009/icrxdnf4/xhr_streaming?t=1568380828982  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58470"
+
+** Angular Live Development Server is listening on localhost:58470, open your browser on http://localhost:58470/ **
+
+[9/13/2019 1:20:40 PM]: /sockjs-node/009/icrxdnf4/xhr_streaming - 200
+Request finished in 10548.9557ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:20:40.404Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6995ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58486...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 23.0418ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58486"
+
+** Angular Live Development Server is listening on localhost:58486, open your browser on http://localhost:58486/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:21:06.347Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7143ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:21:06 PM]: / - 304
+Request finished in 10759.1315ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 1:21:06 PM]: /runtime.js - 304
+Request finished in 83.2145ms 304 
+[9/13/2019 1:21:07 PM]: /vendor.js - 304
+[9/13/2019 1:21:07 PM]: /polyfills.js - 304
+[9/13/2019 1:21:07 PM]: /styles.css - 304
+[9/13/2019 1:21:07 PM]: /main.js - 304
+Request finished in 1135.2127ms 304 
+Request finished in 1117.199ms 304 
+Request finished in 1110.9861ms 304 
+Request finished in 1119.1343ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568380867890  
+[9/13/2019 1:21:07 PM]: /sockjs-node/info - 200
+Request finished in 19.0114ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/534/qthmamoc/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/534/kdzy24wh/xhr_streaming?t=1568380868620  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 4.7713ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 157.0576ms 500 text/html; charset=utf-8
+Connection id "0HLPO9KQM8LNA", Request id "0HLPO9KQM8LNA:00000003": the application completed without reading the entire request body.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58512...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/534/kdzy24wh/xhr_streaming?t=1568380882900  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58512"
+
+** Angular Live Development Server is listening on localhost:58512, open your browser on http://localhost:58512/ **
+
+[9/13/2019 1:21:34 PM]: /sockjs-node/534/kdzy24wh/xhr_streaming - 200
+Request finished in 10736.4723ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:21:34.512Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7160ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58527...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 23.9213ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58527"
+
+** Angular Live Development Server is listening on localhost:58527, open your browser on http://localhost:58527/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:23:42.919Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7247ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:23:42 PM]: / - 304
+Request finished in 10911.0594ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/13/2019 1:23:43 PM]: /styles.css - 304
+Request finished in 95.1276ms 304 
+[9/13/2019 1:23:44 PM]: /runtime.js - 304
+Request finished in 1046.8625ms 304 
+[9/13/2019 1:23:44 PM]: /main.js - 304
+Request finished in 1069.4178ms 304 
+[9/13/2019 1:23:44 PM]: /polyfills.js - 304
+Request finished in 1079.8522ms 304 
+[9/13/2019 1:23:44 PM]: /vendor.js - 304
+Request finished in 1081.0636ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381024444  
+[9/13/2019 1:23:44 PM]: /sockjs-node/info - 200
+Request finished in 20.2341ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/215/gi3eaioy/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/215/cpcnpvi3/xhr_streaming?t=1568381025173  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 4.9044ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 161.8133ms 500 text/html; charset=utf-8
+Connection id "0HLPO9M99UK9I", Request id "0HLPO9M99UK9I:00000003": the application completed without reading the entire request body.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58554...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/215/cpcnpvi3/xhr_streaming?t=1568381048901  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58554"
+
+** Angular Live Development Server is listening on localhost:58554, open your browser on http://localhost:58554/ **
+
+[9/13/2019 1:24:17 PM]: /sockjs-node/215/cpcnpvi3/xhr_streaming - 200
+Request finished in 7493.9712ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:24:19.936Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6822ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58570...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 22.6753ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58570"
+
+** Angular Live Development Server is listening on localhost:58570, open your browser on http://localhost:58570/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:24:37.010Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7092ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:24:37 PM]: / - 304
+Request finished in 10669.1279ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 1:24:37 PM]: /polyfills.js - 304
+Request finished in 63.5747ms 304 
+[9/13/2019 1:24:38 PM]: /vendor.js - 304
+[9/13/2019 1:24:38 PM]: /runtime.js - 304
+Request finished in 1105.0244ms 304 
+[9/13/2019 1:24:38 PM]: /main.js - 304
+[9/13/2019 1:24:38 PM]: /styles.css - 304
+Request finished in 1122.5786ms 304 
+Request finished in 1058.3533ms 304 
+Request finished in 1064.3576ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381078532  
+[9/13/2019 1:24:38 PM]: /sockjs-node/info - 200
+Request finished in 17.064ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/637/d5y5zrgv/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/637/zucuurzq/xhr_streaming?t=1568381079258  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58596...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/637/zucuurzq/xhr_streaming?t=1568381090285  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58596"
+
+** Angular Live Development Server is listening on localhost:58596, open your browser on http://localhost:58596/ **
+
+[9/13/2019 1:24:58 PM]: /sockjs-node/637/zucuurzq/xhr_streaming - 200
+Request finished in 7534.5169ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:25:01.562Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7032ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 3.3881ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 1:25:40 PM]: / - 304
+Request finished in 1028.1224ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/13/2019 1:25:40 PM]: /main.js - 304
+[9/13/2019 1:25:40 PM]: /styles.css - 304
+Request finished in 40.6857ms 304 
+Request finished in 17.6333ms 304 
+[9/13/2019 1:25:41 PM]: /polyfills.js - 304
+Request finished in 1023.9622ms 304 
+[9/13/2019 1:25:41 PM]: /runtime.js - 304
+Request finished in 1026.7443ms 304 
+[9/13/2019 1:25:41 PM]: /vendor.js - 304
+Request finished in 1035.1908ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381142003  
+[9/13/2019 1:25:42 PM]: /sockjs-node/info - 200
+Request finished in 9.6951ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/690/0nywiucw/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/690/wr5volnp/xhr_streaming?t=1568381142709  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58628...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/690/wr5volnp/xhr_streaming?t=1568381199805  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58628"
+
+** Angular Live Development Server is listening on localhost:58628, open your browser on http://localhost:58628/ **
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58636...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 24.3323ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58636"
+
+** Angular Live Development Server is listening on localhost:58636, open your browser on http://localhost:58636/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:27:04.493Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7162ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:27:04 PM]: / - 304
+Request finished in 10784.0507ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 1:27:04 PM]: /main.js - 304
+Request finished in 110.5878ms 304 
+[9/13/2019 1:27:05 PM]: /styles.css - 304
+Request finished in 1072.9212ms 304 
+[9/13/2019 1:27:05 PM]: /runtime.js - 304
+[9/13/2019 1:27:05 PM]: /polyfills.js - 304
+Request finished in 1065.025ms 304 
+[9/13/2019 1:27:05 PM]: /vendor.js - 304
+Request finished in 1087.7612ms 304 
+Request finished in 1082.1347ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381226014  
+[9/13/2019 1:27:06 PM]: /sockjs-node/info - 200
+Request finished in 21.9054ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/493/ajjzdu2j/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/493/ckve2bbu/xhr_streaming?t=1568381226750  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58661...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/493/ckve2bbu/xhr_streaming?t=1568381246997  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58661"
+
+** Angular Live Development Server is listening on localhost:58661, open your browser on http://localhost:58661/ **
+
+[9/13/2019 1:27:35 PM]: /sockjs-node/493/ckve2bbu/xhr_streaming - 200
+Request finished in 7488.5274ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:27:37.921Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6694ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 2.7478ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 1:29:14 PM]: / - 304
+Request finished in 1046.5376ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 1:29:14 PM]: /polyfills.js - 304
+Request finished in 40.2101ms 304 
+[9/13/2019 1:29:15 PM]: /main.js - 304
+Request finished in 1023.1625ms 304 
+[9/13/2019 1:29:15 PM]: /styles.css - 304
+[9/13/2019 1:29:15 PM]: /runtime.js - 304
+[9/13/2019 1:29:15 PM]: /vendor.js - 304
+Request finished in 1055.2434ms 304 
+Request finished in 1053.2782ms 304 
+Request finished in 1042.2096ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381355701  
+[9/13/2019 1:29:15 PM]: /sockjs-node/info - 200
+Request finished in 10.5609ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/319/n1vsrqba/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/319/2x2nabax/xhr_streaming?t=1568381356408  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58723...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/319/2x2nabax/xhr_streaming?t=1568381362995  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58723"
+
+** Angular Live Development Server is listening on localhost:58723, open your browser on http://localhost:58723/ **
+
+[9/13/2019 1:29:31 PM]: /sockjs-node/319/2x2nabax/xhr_streaming - 200
+Request finished in 7495.7249ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:29:34.211Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6931ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568381424152  
+[9/13/2019 1:30:25 PM]: /sockjs-node/info - 200
+Request finished in 1010.7888ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/955/1ljfkr2g/websocket  
+[9/13/2019 1:30:27 PM]: /sockjs-node/955/1ljfkr2g/websocket - 101
+Request finished in 2020.4646ms 101 
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 2.9046ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 1:46:06 PM]: / - 304
+Request finished in 1028.4218ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+[9/13/2019 1:46:06 PM]: /polyfills.js - 304
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request finished in 24.2335ms 304 
+[9/13/2019 1:46:06 PM]: /vendor.js - 304
+Request finished in 26.8289ms 304 
+[9/13/2019 1:46:07 PM]: /runtime.js - 304
+Request finished in 1013.2419ms 304 
+[9/13/2019 1:46:07 PM]: /main.js - 304
+Request finished in 1023.6894ms 304 
+[9/13/2019 1:46:07 PM]: /styles.css - 304
+Request finished in 1023.5497ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568382367590  
+[9/13/2019 1:46:07 PM]: /sockjs-node/info - 200
+Request finished in 9.6729ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/606/xa3h3dvp/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/606/jnqi1awt/xhr_streaming?t=1568382368277  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62055...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/606/jnqi1awt/xhr_streaming?t=1568382399404  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62055"
+
+** Angular Live Development Server is listening on localhost:62055, open your browser on http://localhost:62055/ **
+
+[9/13/2019 1:46:47 PM]: /sockjs-node/606/jnqi1awt/xhr_streaming - 200
+Request finished in 7557.1729ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:46:50.512Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6789ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62093...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 23.0162ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62093"
+
+** Angular Live Development Server is listening on localhost:62093, open your browser on http://localhost:62093/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:49:43.145Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7125ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:49:43 PM]: / - 304
+Request finished in 10732.9328ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/13/2019 1:49:43 PM]: /polyfills.js - 304
+Request finished in 109.0701ms 304 
+[9/13/2019 1:49:44 PM]: /styles.css - 304
+[9/13/2019 1:49:44 PM]: /runtime.js - 304
+Request finished in 1079.1119ms 304 
+[9/13/2019 1:49:44 PM]: /main.js - 304
+[9/13/2019 1:49:44 PM]: /vendor.js - 304
+Request finished in 1103.2215ms 304 
+Request finished in 1130.8363ms 304 
+Request finished in 1105.9244ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568382584701  
+[9/13/2019 1:49:44 PM]: /sockjs-node/info - 200
+Request finished in 19.1897ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/393/mmwvmxcp/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/393/0m5jqxhq/xhr_streaming?t=1568382585432  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62121...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/393/0m5jqxhq/xhr_streaming?t=1568382608493  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62121"
+
+** Angular Live Development Server is listening on localhost:62121, open your browser on http://localhost:62121/ **
+
+[9/13/2019 1:50:19 PM]: /sockjs-node/393/0m5jqxhq/xhr_streaming - 200
+Request finished in 10272.2346ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:50:19.626Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6834ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62172...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 25.4453ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62172"
+
+** Angular Live Development Server is listening on localhost:62172, open your browser on http://localhost:62172/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:51:27.803Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7486ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:51:27 PM]: / - 304
+Request finished in 11336.6743ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+[9/13/2019 1:51:28 PM]: /polyfills.js - 304
+Request finished in 140.3356ms 304 
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62193...
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62193"
+
+** Angular Live Development Server is listening on localhost:62193, open your browser on http://localhost:62193/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /vendor.js
+
+Date: 2019-09-13T13:51:54.025Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7064ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:51:54 PM]: /vendor.js - 200
+Request finished in 10769.7668ms 200 application/javascript; charset=UTF-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62207...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 27.4667ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62207"
+
+** Angular Live Development Server is listening on localhost:62207, open your browser on http://localhost:62207/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:52:31.928Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7389ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:52:31 PM]: / - 304
+Request finished in 11175.0243ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 1:52:32 PM]: /styles.css - 200
+Request finished in 134.646ms 200 text/css; charset=UTF-8
+[9/13/2019 1:52:33 PM]: /polyfills.js - 304
+[9/13/2019 1:52:33 PM]: /runtime.js - 200
+Request finished in 1073.4186ms 304 
+[9/13/2019 1:52:33 PM]: /main.js - 200
+Request finished in 1107.7481ms 200 application/javascript; charset=UTF-8
+Request finished in 1132.9163ms 200 application/javascript; charset=UTF-8
+[9/13/2019 1:52:33 PM]: /vendor.js - 200
+Request finished in 1149.2405ms 200 application/javascript; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568382753489  
+[9/13/2019 1:52:33 PM]: /sockjs-node/info - 200
+Request finished in 22.3945ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/355/kicutsyl/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/355/eo2rnafe/xhr_streaming?t=1568382754234  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62230...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/355/eo2rnafe/xhr_streaming?t=1568382781822  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62230"
+
+** Angular Live Development Server is listening on localhost:62230, open your browser on http://localhost:62230/ **
+
+[9/13/2019 1:53:13 PM]: /sockjs-node/355/eo2rnafe/xhr_streaming - 200
+Request finished in 10382.7353ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:53:13.074Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6985ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 3.201ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 1:53:40 PM]: / - 304
+Request finished in 1036.9606ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 1:53:40 PM]: /polyfills.js - 304
+Request finished in 36.3581ms 304 
+[9/13/2019 1:53:41 PM]: /runtime.js - 304
+[9/13/2019 1:53:41 PM]: /main.js - 304
+Request finished in 1030.5525ms 304 
+[9/13/2019 1:53:41 PM]: /vendor.js - 304
+Request finished in 1044.4418ms 304 
+[9/13/2019 1:53:41 PM]: /styles.css - 304
+Request finished in 1051.3946ms 304 
+Request finished in 1064.3204ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568382822106  
+[9/13/2019 1:53:42 PM]: /sockjs-node/info - 200
+Request finished in 12.3189ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/573/napx2ezk/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/573/cxezut5f/xhr_streaming?t=1568382822814  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62259...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/573/cxezut5f/xhr_streaming?t=1568382867245  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62259"
+
+** Angular Live Development Server is listening on localhost:62259, open your browser on http://localhost:62259/ **
+
+[9/13/2019 1:54:35 PM]: /sockjs-node/573/cxezut5f/xhr_streaming - 200
+Request finished in 7677.4632ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T13:54:38.722Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7011ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 62333...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 23.2463ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "62333"
+
+** Angular Live Development Server is listening on localhost:62333, open your browser on http://localhost:62333/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T13:58:43.978Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7460ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 1:58:44 PM]: / - 304
+Request finished in 11196.7044ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/13/2019 1:58:44 PM]: /styles.css - 304
+Request finished in 115.3909ms 304 
+[9/13/2019 1:58:45 PM]: /vendor.js - 304
+[9/13/2019 1:58:45 PM]: /runtime.js - 304
+Request finished in 1073.2199ms 304 
+[9/13/2019 1:58:45 PM]: /polyfills.js - 304
+Request finished in 1080.8893ms 304 
+[9/13/2019 1:58:45 PM]: /main.js - 304
+Request finished in 1060.4513ms 304 
+Request finished in 1094.8785ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568383125477  
+[9/13/2019 1:58:45 PM]: /sockjs-node/info - 200
+Request finished in 17.3237ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/360/1omix1kw/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/360/yhhwxfze/xhr_streaming?t=1568383126197  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60465...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 24.9151ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60465"
+
+** Angular Live Development Server is listening on localhost:60465, open your browser on http://localhost:60465/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:05:52.092Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7328ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:05:52 PM]: / - 304
+Request finished in 10886.5527ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 2:05:52 PM]: /styles.css - 304
+Request finished in 102.0826ms 304 
+[9/13/2019 2:05:53 PM]: /runtime.js - 304
+[9/13/2019 2:05:53 PM]: /main.js - 304
+[9/13/2019 2:05:53 PM]: /polyfills.js - 304
+Request finished in 1097.6533ms 304 
+Request finished in 1068.7866ms 304 
+[9/13/2019 2:05:53 PM]: /vendor.js - 304
+Request finished in 1129.5996ms 304 
+Request finished in 1126.4153ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568383553670  
+[9/13/2019 2:05:53 PM]: /sockjs-node/info - 200
+Request finished in 18.4108ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/826/gbi4a3aq/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/826/oiqeji43/xhr_streaming?t=1568383554398  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60495...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/826/oiqeji43/xhr_streaming?t=1568383704157  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60495"
+
+** Angular Live Development Server is listening on localhost:60495, open your browser on http://localhost:60495/ **
+
+[9/13/2019 2:08:32 PM]: /sockjs-node/826/oiqeji43/xhr_streaming - 200
+Request finished in 7549.3233ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T14:08:35.628Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7152ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60503...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 28.4509ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60503"
+
+** Angular Live Development Server is listening on localhost:60503, open your browser on http://localhost:60503/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:08:54.868Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7265ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:08:54 PM]: / - 304
+Request finished in 11005.6739ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+[9/13/2019 2:08:55 PM]: /styles.css - 304
+Request finished in 94.9839ms 304 
+[9/13/2019 2:08:55 PM]: /vendor.js - 304
+Request finished in 88.0314ms 304 
+[9/13/2019 2:08:56 PM]: /polyfills.js - 304
+[9/13/2019 2:08:56 PM]: /runtime.js - 304
+Request finished in 1110.4511ms 304 
+[9/13/2019 2:08:56 PM]: /main.js - 304
+Request finished in 1103.9814ms 304 
+Request finished in 1108.3112ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568383736349  
+[9/13/2019 2:08:56 PM]: /sockjs-node/info - 200
+Request finished in 18.2328ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/082/1t3s14br/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/082/fmip251i/xhr_streaming?t=1568383737075  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60562...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 24.4822ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60562"
+
+** Angular Live Development Server is listening on localhost:60562, open your browser on http://localhost:60562/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:10:46.378Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7153ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:10:46 PM]: / - 304
+Request finished in 10883.5594ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/13/2019 2:10:46 PM]: /runtime.js - 304
+Request finished in 70.9133ms 304 
+[9/13/2019 2:10:47 PM]: /main.js - 304
+[9/13/2019 2:10:47 PM]: /styles.css - 304
+Request finished in 1048.7745ms 304 
+[9/13/2019 2:10:47 PM]: /polyfills.js - 304
+Request finished in 1083.3877ms 304 
+[9/13/2019 2:10:47 PM]: /vendor.js - 304
+Request finished in 1066.1296ms 304 
+Request finished in 1103.9734ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568383847949  
+[9/13/2019 2:10:47 PM]: /sockjs-node/info - 200
+Request finished in 16.1389ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/340/t44if0dw/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/340/2lfd3fwe/xhr_streaming?t=1568383848677  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60589...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 22.8838ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60589"
+
+** Angular Live Development Server is listening on localhost:60589, open your browser on http://localhost:60589/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:11:25.255Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7502ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:11:25 PM]: / - 304
+Request finished in 11179.2301ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+[9/13/2019 2:11:25 PM]: /styles.css - 304
+Request finished in 107.4823ms 304 
+[9/13/2019 2:11:26 PM]: /runtime.js - 304
+[9/13/2019 2:11:26 PM]: /main.js - 304
+Request finished in 1050.6835ms 304 
+Request finished in 1077.5744ms 304 
+[9/13/2019 2:11:26 PM]: /polyfills.js - 304
+[9/13/2019 2:11:26 PM]: /vendor.js - 304
+Request finished in 1058.5484ms 304 
+Request finished in 1075.576ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568383886856  
+[9/13/2019 2:11:26 PM]: /sockjs-node/info - 200
+Request finished in 18.2124ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/060/o4j3hj1r/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/060/4unn2im0/xhr_streaming?t=1568383887581  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60615...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/060/4unn2im0/xhr_streaming?t=1568383914565  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60615"
+
+** Angular Live Development Server is listening on localhost:60615, open your browser on http://localhost:60615/ **
+
+[9/13/2019 2:12:03 PM]: /sockjs-node/060/4unn2im0/xhr_streaming - 200
+Request finished in 8273.023ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T14:12:06.138Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7250ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60727...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 26.9612ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60727"
+
+** Angular Live Development Server is listening on localhost:60727, open your browser on http://localhost:60727/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:21:26.949Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7210ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:21:26 PM]: / - 304
+Request finished in 10885.9364ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 2:21:27 PM]: /runtime.js - 304
+Request finished in 65.7328ms 304 
+[9/13/2019 2:21:28 PM]: /main.js - 304
+Request finished in 1044.2226ms 304 
+[9/13/2019 2:21:28 PM]: /polyfills.js - 304
+[9/13/2019 2:21:28 PM]: /styles.css - 304
+Request finished in 1087.2452ms 304 
+[9/13/2019 2:21:28 PM]: /vendor.js - 304
+Request finished in 1083.0343ms 304 
+Request finished in 1107.8214ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568384488463  
+[9/13/2019 2:21:28 PM]: /sockjs-node/info - 200
+Request finished in 16.3092ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/718/24ljs2gy/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/718/2vyk0mjw/xhr_streaming?t=1568384489186  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60755...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 28.6581ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60755"
+
+** Angular Live Development Server is listening on localhost:60755, open your browser on http://localhost:60755/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:21:54.601Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7338ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:21:54 PM]: / - 304
+Request finished in 10960.4272ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 2:21:54 PM]: /vendor.js - 304
+Request finished in 64.2019ms 304 
+[9/13/2019 2:21:54 PM]: /runtime.js - 304
+Request finished in 65.6504ms 304 
+[9/13/2019 2:21:55 PM]: /polyfills.js - 304
+Request finished in 1043.226ms 304 
+[9/13/2019 2:21:55 PM]: /styles.css - 304
+Request finished in 1028.7693ms 304 
+[9/13/2019 2:21:55 PM]: /main.js - 304
+Request finished in 1077.7323ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568384516101  
+[9/13/2019 2:21:56 PM]: /sockjs-node/info - 200
+Request finished in 16.8314ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/963/g523pxvw/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/963/my1d1fo0/xhr_streaming?t=1568384516833  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 60802...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 24.1868ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "60802"
+
+** Angular Live Development Server is listening on localhost:60802, open your browser on http://localhost:60802/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:33:27.918Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7150ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:33:27 PM]: / - 304
+Request finished in 10747.8573ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/13/2019 2:33:28 PM]: /runtime.js - 304
+Request finished in 62.3873ms 304 
+[9/13/2019 2:33:29 PM]: /styles.css - 304
+Request finished in 1072.3797ms 304 
+[9/13/2019 2:33:29 PM]: /main.js - 304
+[9/13/2019 2:33:29 PM]: /polyfills.js - 304
+Request finished in 1081.9618ms 304 
+Request finished in 1073.9675ms 304 
+[9/13/2019 2:33:29 PM]: /vendor.js - 304
+Request finished in 1111.827ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568385209459  
+[9/13/2019 2:33:29 PM]: /sockjs-node/info - 200
+Request finished in 19.3378ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/687/b1qvnj3l/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/687/lvemnmbc/xhr_streaming?t=1568385210185  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/javascript 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 731.0777ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+[9/13/2019 2:33:35 PM]: /api/account/sign-in - 415
+Request finished in 786.9808ms 415 application/problem+json; charset=utf-8
+Connection id "0HLPOAT8IOC09", Request id "0HLPOAT8IOC09:00000002": the application completed without reading the entire request body.
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 90.4058ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+[9/13/2019 2:33:57 PM]: /api/account/sign-in - 400
+Request finished in 120.2717ms 400 application/problem+json; charset=utf-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59723...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 28.0538ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59723"
+
+** Angular Live Development Server is listening on localhost:59723, open your browser on http://localhost:59723/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T14:36:33.208Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7419ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 2:36:33 PM]: / - 304
+Request finished in 11021.1097ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/13/2019 2:36:33 PM]: /styles.css - 304
+Request finished in 82.7003ms 304 
+[9/13/2019 2:36:33 PM]: /runtime.js - 304
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request finished in 81.9195ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+[9/13/2019 2:36:33 PM]: /polyfills.js - 304
+Request finished in 39.2653ms 304 
+[9/13/2019 2:36:34 PM]: /main.js - 304
+Request finished in 1020.225ms 304 
+[9/13/2019 2:36:34 PM]: /vendor.js - 304
+Request finished in 1040.1037ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568385394724  
+[9/13/2019 2:36:34 PM]: /sockjs-node/info - 200
+Request finished in 16.1932ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/059/0koim4xo/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/059/e2z350cf/xhr_streaming?t=1568385395438  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59744...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/059/e2z350cf/xhr_streaming?t=1568385409030  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59744"
+
+** Angular Live Development Server is listening on localhost:59744, open your browser on http://localhost:59744/ **
+
+[9/13/2019 2:36:57 PM]: /sockjs-node/059/e2z350cf/xhr_streaming - 200
+Request finished in 7692.2014ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T14:37:00.271Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6797ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 3.1259ms 307 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/13/2019 2:43:19 PM]: / - 304
+Request finished in 1043.3832ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/13/2019 2:43:19 PM]: /runtime.js - 304
+Request finished in 32.1961ms 304 
+[9/13/2019 2:43:19 PM]: /main.js - 304
+Request finished in 16.9576ms 304 
+[9/13/2019 2:43:20 PM]: /styles.css - 304
+[9/13/2019 2:43:20 PM]: /polyfills.js - 304
+Request finished in 1019.2875ms 304 
+[9/13/2019 2:43:20 PM]: /vendor.js - 304
+Request finished in 1025.8844ms 304 
+Request finished in 1030.7115ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568385801244  
+[9/13/2019 2:43:21 PM]: /sockjs-node/info - 200
+Request finished in 11.4069ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/835/kcqy3rcd/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/835/rau4qnuf/xhr_streaming?t=1568385801950  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Base.BaseItemResponse`1[Store.BussinesLogic.Model.User.JwtAuthModel]]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59802...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/835/rau4qnuf/xhr_streaming?t=1568385821933  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59802"
+
+** Angular Live Development Server is listening on localhost:59802, open your browser on http://localhost:59802/ **
+
+[9/13/2019 2:43:53 PM]: /sockjs-node/835/rau4qnuf/xhr_streaming - 200
+Request finished in 10639.6963ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-13T14:43:53.448Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7014ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+

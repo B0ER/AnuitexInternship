@@ -1,25 +1,19 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Store.DataAccess.AppContext;
 using Store.DataAccess.Entities;
 
 namespace Store.DataAccess.Initialization
 {
     internal static class BaseSeedData
     {
-        public static void AddRoles(ModelBuilder dbBuilder)
+        public static async void AddRoles(RoleManager<Role> roleManager)
         {
-            dbBuilder.Entity<Role>().HasData(
-                new Role { Name = Constants.Roles.Admin },
-                new Role { Name = Constants.Roles.User },
-                new Role { Name = Constants.Roles.Guest }
-            );
+            await roleManager.CreateAsync(new Role { Name = Constants.Roles.Admin });
+            await roleManager.CreateAsync(new Role { Name = Constants.Roles.User });
+            await roleManager.CreateAsync(new Role { Name = Constants.Roles.Guest });
         }
 
         public static async void AddAdmins(UserManager<ApplicationUser> userManager)
         {
-            //todo: rewrite to di with rolemanager and usermanager
-
             var admin = new ApplicationUser { UserName = Constants.Roles.Admin };
             await userManager.CreateAsync(admin);
             await userManager.AddPasswordAsync(admin, "pas");

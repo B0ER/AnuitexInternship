@@ -23,7 +23,6 @@ namespace Store.BussinesLogic.Helpers
         private string GenerateJwt(ClaimsIdentity identity, TimeSpan expireTokenMinutes)
         {
             var now = DateTime.UtcNow;
-            // create JWT-token
             var jwt = new JwtSecurityToken(
                 issuer: _jwtAuthOptions.Issuer,
                 audience: _jwtAuthOptions.Audience,
