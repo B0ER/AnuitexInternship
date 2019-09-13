@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Store.BussinesLogic.Exceptions;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
@@ -47,7 +48,7 @@ namespace Store.BussinesLogic.Services.AccountService
 
             if (!result.Succeeded)
             {
-                throw new InvalidOperationException();
+                throw new PasswordInvalidException();
             }
 
             ApplicationUser user = await _userManager.FindByEmailAsync(userRequest.Email);
@@ -65,7 +66,7 @@ namespace Store.BussinesLogic.Services.AccountService
 
             if (!resultConfirm.Succeeded)
             {
-                throw new InvalidOperationException();
+                throw new EmailCodeInvalidException();
             }
         }
 
@@ -74,7 +75,7 @@ namespace Store.BussinesLogic.Services.AccountService
             var result = await _userManager.ChangePasswordAsync(user, passwordChangeRequest.OldPassword, passwordChangeRequest.NewPasswordRepeate);
             if (!result.Succeeded)
             {
-                throw new InvalidOperationException();
+                throw new PasswordInvalidException();
             }
         }
 
@@ -91,7 +92,7 @@ namespace Store.BussinesLogic.Services.AccountService
 
             if (!resultRestore.Succeeded)
             {
-                throw new InvalidOperationException();
+                throw new PasswordInvalidException();
             }
         }
 
