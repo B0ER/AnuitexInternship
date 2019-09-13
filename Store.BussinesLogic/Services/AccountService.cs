@@ -22,7 +22,7 @@ namespace Store.BussinesLogic.Services.AccountService
             _userRepository = userRepository;
         }
 
-        public async Task<string> SignUpAsync(UserSignUpModel newUserResponse)
+        public async Task<ApplicationUser> SignUpAsync(UserSignUpModel newUserResponse)
         {
             var newUser = new ApplicationUser
             {
@@ -32,6 +32,11 @@ namespace Store.BussinesLogic.Services.AccountService
 
             await _userRepository.AddAsync(newUser, newUserResponse.Password);
 
+            return newUser;
+        }
+
+        public async Task<string> GetConfirmCodeAsync(ApplicationUser newUser)
+        {
             var code = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
             return code;
         }

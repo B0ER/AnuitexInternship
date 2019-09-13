@@ -11,6 +11,8 @@ using Store.BussinesLogic.DependencyInjection;
 using Store.Presentation.Middlewares;
 using System.IO;
 using Store.BussinesLogic.Options;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
 
 namespace Store.Presentation
 {
@@ -26,14 +28,33 @@ namespace Store.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //configure jwt setting
+            services.Configure<JwtAuthOptions>(Configuration.GetSection("JwtAuthOptions"));
+            var serviceProvider = services.BuildServiceProvider();
+            var jwtAuthConfig = serviceProvider.GetRequiredService<IOptions<JwtAuthOptions>>().Value;
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(options =>
+                {
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = jwtAuthConfig.GetTokenValidationParameters();
+                });
+
+
             //add logger provider
             var logProvider = new ApplicationLoggerProvider(Path.Combine(Directory.GetCurrentDirectory(), "log.txt"));
             services.AddLogging(factory => factory.AddProvider(logProvider));
 
             //add identity
             services.AddApplicationDatabase(Configuration);
-            
-            services.Configure<EmailOptions>(Configuration.GetSection("SmtpConfiguration")); //add EmailOptions
+
+            //add EmailOptions
+            services.Configure<EmailOptions>(Configuration.GetSection("SmtpConfiguration"));
             services.AddEmailSender();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

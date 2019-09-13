@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
@@ -15,12 +16,14 @@ namespace Store.Presentation.Controllers
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;
-        private UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IEmailSender _emailSender;
 
-        public AccountController(IAccountService accountService, UserManager<ApplicationUser> userManager)
+        public AccountController(IAccountService accountService, UserManager<ApplicationUser> userManager, IEmailSender emailSender)
         {
             _accountService = accountService;
             _userManager = userManager;
+            _emailSender = emailSender;
         }
 
         [HttpPost("[action]")]
@@ -34,16 +37,24 @@ namespace Store.Presentation.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> SignUpAsync(UserSignUpModel newUserRequest)
         {
-            string acceptSignupCode = await _accountService.SignUpAsync(newUserRequest);
-            //todo: add generate url and send message to email
-            /*
+            var newUser = await _accountService.SignUpAsync(newUserRequest);
+            string acceptSignupCode = await _accountService.GetConfirmCodeAsync(newUser);
+
             string acceptUrl = Url.Action(
                         "ConfirmEmail",
                         "Account",
-                        new { userId = user.Id, acceptSignupCode = acceptSignupCode },
+                        new { userId = newUser.Id, code = acceptSignupCode },
                         protocol: HttpContext.Request.Scheme);
-            */
 
+            await _emailSender.SendEmailAsync(newUser.Email, "SignUp", $"<a href=\"{acceptUrl}\">Accept registration</a>");
+
+            return Ok();
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ConfirmEmail(long userId, string code)
+        {
+            await _accountService.ConfirmEmailAsync(userId, code);
             return Ok();
         }
 
@@ -59,14 +70,14 @@ namespace Store.Presentation.Controllers
         public async Task<IActionResult> ResetPasswordAsync()
         {
             var user = await _userManager.GetUserAsync(User);
-            _accountService.ResetPasswordAsync(user);
+            await _accountService.ResetPasswordAsync(user);
             return Ok();
         }
 
         [HttpPost("[action]")]
         public async Task<IActionResult> AcceptResetPasswordAsync(long userId, string restoreToken, string newPassword)
         {
-            _accountService.AcceptResetPasswordAsync(userId, restoreToken, newPassword);
+            await _accountService.AcceptResetPasswordAsync(userId, restoreToken, newPassword);
             return Ok();
         }
 
@@ -75,7 +86,7 @@ namespace Store.Presentation.Controllers
         public async Task<IActionResult> ChangePasswordAsync(UserChangePasswordModel userChangePasswordRequest)
         {
             var user = await _userManager.GetUserAsync(User);
-            _accountService.ChangePasswordAsync(user, userChangePasswordRequest);
+            await _accountService.ChangePasswordAsync(user, userChangePasswordRequest);
             return Ok();
         }
     }

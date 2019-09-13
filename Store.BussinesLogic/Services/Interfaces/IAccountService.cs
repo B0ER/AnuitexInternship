@@ -7,7 +7,8 @@ namespace Store.BussinesLogic.Services.Interfaces
     public interface IAccountService
     {
         Task<ApplicationUser> GetMeAsync(long userId);
-        Task<string> SignUpAsync(UserSignUpModel newUserResponse);
+        Task<ApplicationUser> SignUpAsync(UserSignUpModel newUserResponse);
+        Task<string> GetConfirmCodeAsync(ApplicationUser newUser);
         Task<string> SignInAsync(UserSignInModel userRequest);
         Task ConfirmEmailAsync(long userId, string code);
         Task ChangePasswordAsync(ApplicationUser user, UserChangePasswordModel passwordChangeRequest);
