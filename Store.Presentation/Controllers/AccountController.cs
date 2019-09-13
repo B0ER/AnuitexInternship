@@ -9,11 +9,12 @@ using Microsoft.AspNetCore.Mvc;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
+using Store.Presentation.Controllers.Base;
 
 namespace Store.Presentation.Controllers
 {
     [Route("api/[controller]")]
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         private readonly IAccountService _accountService;
         private readonly UserManager<ApplicationUser> _userManager;
