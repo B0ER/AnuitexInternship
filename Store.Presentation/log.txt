@@ -1,0 +1,56 @@
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 52766...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 43.7343ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "52766"
+
+** Angular Live Development Server is listening on localhost:52766, open your browser on http://localhost:52766/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-13T09:22:08.382Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7317ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/13/2019 9:22:08 AM]: / - 200
+Request finished in 11545.4261ms 200 text/html; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/13/2019 9:22:08 AM]: /styles.css - 304
+Request finished in 60.9779ms 304 
+[9/13/2019 9:22:08 AM]: /polyfills.js - 304
+Request finished in 109.4832ms 304 
+[9/13/2019 9:22:09 AM]: /main.js - 304
+[9/13/2019 9:22:09 AM]: /runtime.js - 304
+Request finished in 1068.9237ms 304 
+[9/13/2019 9:22:09 AM]: /vendor.js - 304
+Request finished in 1087.7645ms 304 
+Request finished in 1099.2593ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568366529906  
+[9/13/2019 9:22:09 AM]: /sockjs-node/info - 200
+Request finished in 17.6931ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/428/ndlyo23l/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/428/ebeh3d2l/xhr_streaming?t=1568366530623  0
+Request starting HTTP/1.1 GET http://localhost:44382/api/SampleData/WeatherForecasts  
+Executing endpoint 'Store.Presentation.Controllers.SampleDataController.WeatherForecasts (Store.Presentation)'
+Route matched with {action = "WeatherForecasts", controller = "SampleData", page = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Store.Presentation.Controllers.SampleDataController+WeatherForecast] WeatherForecasts() on controller Store.Presentation.Controllers.SampleDataController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.SampleDataController.WeatherForecasts (Store.Presentation) - Validation state: Valid
+Executed action method Store.Presentation.Controllers.SampleDataController.WeatherForecasts (Store.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9035ms.
+Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Store.Presentation.Controllers.SampleDataController+WeatherForecast, Store.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+Executed action Store.Presentation.Controllers.SampleDataController.WeatherForecasts (Store.Presentation) in 81.9505ms
+Executed endpoint 'Store.Presentation.Controllers.SampleDataController.WeatherForecasts (Store.Presentation)'
+[9/13/2019 9:23:19 AM]: /api/SampleData/WeatherForecasts - 200
+Request finished in 158.3157ms 200 application/json; charset=utf-8
+[9/13/2019 9:23:20 AM]: /sockjs-node/428/ndlyo23l/websocket - 101
+Request finished in 70869.2431ms 101 

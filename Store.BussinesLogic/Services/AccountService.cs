@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Store.BussinesLogic.Exceptions;
+using Store.BussinesLogic.Helpers;
+using Store.BussinesLogic.Model.User;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Store.BussinesLogic.Services.AccountService
@@ -13,14 +16,18 @@ namespace Store.BussinesLogic.Services.AccountService
     {
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
-
         private IUserRepository _userRepository;
+        private JwtManager _jwtManager;
 
-        public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IUserRepository userRepository)
+        public AccountService(UserManager<ApplicationUser> userManager,
+                              SignInManager<ApplicationUser> signInManager,
+                              IUserRepository userRepository,
+                              JwtManager jwtManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _userRepository = userRepository;
+            _jwtManager = jwtManager;
         }
 
         public async Task<ApplicationUser> SignUpAsync(UserSignUpModel newUserResponse)
@@ -42,7 +49,7 @@ namespace Store.BussinesLogic.Services.AccountService
             return code;
         }
 
-        public async Task<string> SignInAsync(UserSignInModel userRequest)
+        public async Task<JwtAuthModel> SignInAsync(UserSignInModel userRequest)
         {
             var result = await _signInManager.PasswordSignInAsync(userRequest.Email, userRequest.Password, userRequest.RememberMe, false);
 
@@ -54,8 +61,13 @@ namespace Store.BussinesLogic.Services.AccountService
             ApplicationUser user = await _userManager.FindByEmailAsync(userRequest.Email);
             _signInManager.SignInAsync(user, false);
 
-            //todo: add jwt
-            return "";
+            IEnumerable<string> userRoles = await _userManager.GetRolesAsync(user);
+
+            var tokensResponse = new JwtAuthModel();
+            tokensResponse.AccessToken = _jwtManager.GenerateAccessToken(user, userRoles);
+            tokensResponse.RefreshToken = _jwtManager.GenerateRefreshToken(user);
+
+            return tokensResponse;
         }
 
         public async Task ConfirmEmailAsync(long userId, string code)

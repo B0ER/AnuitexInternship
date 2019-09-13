@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Store.BussinesLogic.Model.Base;
+using Store.BussinesLogic.Model.User;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
@@ -30,9 +32,8 @@ namespace Store.Presentation.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> SignInAsync(UserSignInModel userRequest)
         {
-            //todo: add model with two token
-            string token = await _accountService.SignInAsync(userRequest);
-            return Ok(token);
+            JwtAuthModel token = await _accountService.SignInAsync(userRequest);
+            return Ok(BaseItemResponse<JwtAuthModel>.CreateResponse(token));
         }
 
         [HttpPost("[action]")]
