@@ -1439,3 +1439,2611 @@ chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
 chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
 i ∩╜ówdm∩╜ú: Compiled successfully.
 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58892...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 37.9521ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58892"
+
+** Angular Live Development Server is listening on localhost:58892, open your browser on http://localhost:58892/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T07:29:28.398Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7565ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 7:29:28 AM]: / - 304
+Request finished in 11881.8684ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/16/2019 7:29:28 AM]: /polyfills.js - 304
+Request finished in 233.6698ms 304 
+[9/16/2019 7:29:29 AM]: /styles.css - 304
+Request finished in 1080.2585ms 304 
+[9/16/2019 7:29:29 AM]: /runtime.js - 304
+[9/16/2019 7:29:29 AM]: /vendor.js - 304
+[9/16/2019 7:29:29 AM]: /main.js - 304
+Request finished in 1055.3273ms 304 
+Request finished in 1081.8193ms 304 
+Request finished in 1082.5821ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568618969919  
+[9/16/2019 7:29:29 AM]: /sockjs-node/info - 200
+Request finished in 27.4262ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/227/ydtshzc0/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/227/uqnsseay/xhr_streaming?t=1568618970674  0
+[9/16/2019 7:29:48 AM]: /sockjs-node/227/ydtshzc0/websocket - 101
+Request finished in 18209.456ms 101 
+[9/16/2019 7:29:55 AM]: /sockjs-node/227/uqnsseay/xhr_streaming - 200
+Request finished in 25019.8822ms 200 application/javascript; charset=UTF-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 58965...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 40.2408ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58965"
+
+** Angular Live Development Server is listening on localhost:58965, open your browser on http://localhost:58965/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T07:32:19.762Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7272ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 7:32:19 AM]: / - 304
+Request finished in 11037.668ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+[9/16/2019 7:32:19 AM]: /runtime.js - 304
+[9/16/2019 7:32:19 AM]: /polyfills.js - 304
+Request finished in 90.0911ms 304 
+Request finished in 29.6423ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/16/2019 7:32:19 AM]: /vendor.js - 304
+Request finished in 46.1926ms 304 
+[9/16/2019 7:32:20 AM]: /styles.css - 304
+Request finished in 74.4368ms 304 
+[9/16/2019 7:32:20 AM]: /main.js - 304
+Request finished in 1081.3525ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568619141156  
+[9/16/2019 7:32:21 AM]: /sockjs-node/info - 200
+Request finished in 16.175ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/392/35xsaaas/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/392/wtpnsfma/xhr_streaming?t=1568619141877  0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59006...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/392/wtpnsfma/xhr_streaming?t=1568619208679  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59006"
+
+** Angular Live Development Server is listening on localhost:59006, open your browser on http://localhost:59006/ **
+
+[9/16/2019 7:33:36 AM]: /sockjs-node/392/wtpnsfma/xhr_streaming - 200
+Request finished in 7477.8423ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-16T07:33:39.620Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6739ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/16/2019 7:34:26 AM]: /polyfills.js - 304
+[9/16/2019 7:34:26 AM]: /runtime.js - 304
+[9/16/2019 7:34:26 AM]: /styles.css - 304
+[9/16/2019 7:34:26 AM]: /main.js - 304
+Request finished in 1026.0496ms 304 
+Request finished in 1028.3521ms 304 
+Request finished in 1029.2106ms 304 
+Request finished in 1018.9301ms 304 
+[9/16/2019 7:34:26 AM]: /vendor.js - 304
+Request finished in 1031.0438ms 304 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59077...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 27.5276ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59077"
+
+** Angular Live Development Server is listening on localhost:59077, open your browser on http://localhost:59077/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T07:53:08.766Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7043ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 7:53:08 AM]: / - 304
+Request finished in 10714.4682ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/16/2019 7:53:08 AM]: /polyfills.js - 304
+Request finished in 72.3411ms 304 
+[9/16/2019 7:53:08 AM]: /main.js - 304
+Request finished in 57.2586ms 304 
+[9/16/2019 7:53:09 AM]: /styles.css - 304
+Request finished in 1066.0326ms 304 
+[9/16/2019 7:53:09 AM]: /runtime.js - 304
+Request finished in 1042.411ms 304 
+[9/16/2019 7:53:09 AM]: /vendor.js - 304
+Request finished in 1046.1372ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568620390261  
+[9/16/2019 7:53:10 AM]: /sockjs-node/info - 200
+Request finished in 16.2523ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/006/s5bfkn5j/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/006/vnnlcm1q/xhr_streaming?t=1568620390992  0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59099...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/006/vnnlcm1q/xhr_streaming?t=1568620436569  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59099"
+
+** Angular Live Development Server is listening on localhost:59099, open your browser on http://localhost:59099/ **
+
+[9/16/2019 7:54:04 AM]: /sockjs-node/006/vnnlcm1q/xhr_streaming - 200
+Request finished in 7470.8504ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-16T07:54:07.543Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6757ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Starting @angular/cli on port 59107...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 24.1624ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59107"
+
+** Angular Live Development Server is listening on localhost:59107, open your browser on http://localhost:59107/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T07:54:59.943Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7018ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 7:54:59 AM]: / - 304
+Request finished in 10570.9821ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/16/2019 7:55:00 AM]: /styles.css - 304
+Request finished in 99.1299ms 304 
+[9/16/2019 7:55:01 AM]: /polyfills.js - 304
+[9/16/2019 7:55:01 AM]: /main.js - 304
+Request finished in 1081.3955ms 304 
+[9/16/2019 7:55:01 AM]: /vendor.js - 304
+[9/16/2019 7:55:01 AM]: /runtime.js - 304
+Request finished in 1077.1697ms 304 
+Request finished in 1087.13ms 304 
+Request finished in 1062.2039ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568620501438  
+[9/16/2019 7:55:01 AM]: /sockjs-node/info - 200
+Request finished in 14.2357ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/446/ar2ledbm/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/446/zwp5gytm/xhr_streaming?t=1568620502158  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 15.1554ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 245.968ms 500 text/html; charset=utf-8
+Connection id "0HLPQFCJ426MH", Request id "0HLPQFCJ426MH:00000003": the application completed without reading the entire request body.
+[9/16/2019 7:58:12 AM]: /sockjs-node/446/ar2ledbm/websocket - 101
+Request finished in 190758.1399ms 101 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Application startup exception
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Connection id "0HLPQGGU14R73", Request id "0HLPQGGU14R73:00000001": An unhandled exception was thrown by the application.
+Request finished in 11.505ms 500 text/html; charset=utf-8
+Request finished in 12.8991ms 500 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (11ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id]
+FROM [AspNetUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred in the database while saving changes for context type 'Store.DataAccess.AppContext.ApplicationDbContext'.
+System.InvalidOperationException: The property 'UserId' on entity type 'IdentityUserRole<long>' has a temporary value. Either set a permanent value explicitly or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.Update.Internal.CommandBatchPreparer.Validate(ModificationCommand modificationCommand)
+   at Microsoft.EntityFrameworkCore.Update.Internal.CommandBatchPreparer.BatchCommands(IReadOnlyList`1 entries)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 63176...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 11.9601ms 307 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63176"
+
+** Angular Live Development Server is listening on localhost:63176, open your browser on http://localhost:63176/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T09:08:52.426Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7161ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 9:08:52 AM]: / - 200
+Request finished in 10820.958ms 200 text/html; charset=UTF-8
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916091500_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916091500_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916092750_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916092750_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916094233_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916094712_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916095601_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (178ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916100311_Init Database'.
+Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (135ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (138ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916102824_Init Migration'.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190916102824_Init Migration', N'2.2.6-servicing-10079');
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (27ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id]
+FROM [AspNetUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (5ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+An exception occurred in the database while saving changes for context type 'Store.DataAccess.AppContext.ApplicationDbContext'.
+System.InvalidOperationException: The property 'UserId' on entity type 'IdentityUserRole<long>' has a temporary value. Either set a permanent value explicitly or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.Update.Internal.CommandBatchPreparer.Validate(ModificationCommand modificationCommand)
+   at Microsoft.EntityFrameworkCore.Update.Internal.CommandBatchPreparer.BatchCommands(IReadOnlyList`1 entries)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (11ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 56073...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 12.3966ms 307 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "56073"
+
+** Angular Live Development Server is listening on localhost:56073, open your browser on http://localhost:56073/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:36:51.546Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7111ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:36:51 AM]: / - 200
+Request finished in 10878.7731ms 200 text/html; charset=UTF-8
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (223ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916103833_Init Migration'.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190916103833_Init Migration', N'2.2.6-servicing-10079');
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id]
+FROM [AspNetUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User 1 password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);
+Executed DbCommand (3ms) [Parameters=[@p14='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+SELECT @@ROWCOUNT;
+Starting @angular/cli on port 63197...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 12.9819ms 307 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63197"
+
+** Angular Live Development Server is listening on localhost:63197, open your browser on http://localhost:63197/ **
+
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (25ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 63211...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 24.8447ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63211"
+
+** Angular Live Development Server is listening on localhost:63211, open your browser on http://localhost:63211/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:39:45.326Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7079ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:39:45 AM]: / - 200
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request finished in 10943.4178ms 200 text/html; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/16/2019 10:39:45 AM]: /vendor.js - 304
+Request finished in 53.3354ms 304 
+[9/16/2019 10:39:46 AM]: /main.js - 304
+Request finished in 1041.7133ms 304 
+[9/16/2019 10:39:46 AM]: /styles.css - 304
+[9/16/2019 10:39:46 AM]: /runtime.js - 304
+Request finished in 1033.4014ms 304 
+[9/16/2019 10:39:46 AM]: /polyfills.js - 304
+Request finished in 1068.4763ms 304 
+Request finished in 1013.9443ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568630386785  
+Request starting HTTP/1.1 GET http://localhost:44382/favicon.ico  
+[9/16/2019 10:39:46 AM]: /sockjs-node/info - 200
+Request finished in 31.0904ms 200 application/json; charset=UTF-8
+Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Anuitex\source\repos\Store\Store.Presentation\wwwroot\favicon.ico'
+Request finished in 27.1819ms 200 image/x-icon
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/294/qzulwbh2/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/294/fhtvka0k/xhr_streaming?t=1568630387553  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+[9/16/2019 10:40:17 AM]: / - 304
+Request finished in 1015.6943ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/16/2019 10:40:17 AM]: /runtime.js - 304
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/16/2019 10:40:17 AM]: /main.js - 304
+Request finished in 27.4193ms 304 
+[9/16/2019 10:40:17 AM]: /vendor.js - 304
+Request finished in 36.3147ms 304 
+Request finished in 40.7196ms 304 
+[9/16/2019 10:40:17 AM]: /sockjs-node/294/qzulwbh2/websocket - 101
+Request finished in 31012.6708ms 101 
+[9/16/2019 10:40:18 AM]: /styles.css - 304
+Request finished in 1026.3366ms 304 
+[9/16/2019 10:40:18 AM]: /polyfills.js - 304
+Request finished in 1053.2953ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568630419020  
+[9/16/2019 10:40:19 AM]: /sockjs-node/info - 200
+Request starting HTTP/1.1 GET http://localhost:44382/favicon.ico  
+Request finished in 15.7312ms 200 application/json; charset=UTF-8
+Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Anuitex\source\repos\Store\Store.Presentation\wwwroot\favicon.ico'
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/010/zvlrydcd/websocket  
+Request finished in 10.3833ms 200 image/x-icon
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 63248...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 28.413ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63248"
+
+** Angular Live Development Server is listening on localhost:63248, open your browser on http://localhost:63248/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:40:44.227Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7008ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:40:44 AM]: / - 304
+Request finished in 10706.1471ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/16/2019 10:40:44 AM]: /vendor.js - 304
+Request finished in 70.696ms 304 
+[9/16/2019 10:40:44 AM]: /runtime.js - 304
+Request finished in 75.5516ms 304 
+[9/16/2019 10:40:45 AM]: /polyfills.js - 304
+[9/16/2019 10:40:45 AM]: /styles.css - 304
+Request finished in 1082.6959ms 304 
+Request finished in 1062.911ms 304 
+[9/16/2019 10:40:45 AM]: /main.js - 304
+Request finished in 1071.7539ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568630445701  
+[9/16/2019 10:40:45 AM]: /sockjs-node/info - 200
+Request finished in 17.8922ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/155/bafk44kf/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/155/u4ymciiz/xhr_streaming?t=1568630446422  0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (22ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 63277...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 29.2226ms 200 
+Request finished in 29.2222ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63277"
+
+** Angular Live Development Server is listening on localhost:63277, open your browser on http://localhost:63277/ **
+

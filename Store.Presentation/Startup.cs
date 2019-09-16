@@ -10,10 +10,13 @@ using Microsoft.Extensions.Options;
 using Store.BussinesLogic.Common;
 using Store.BussinesLogic.DependencyInjection;
 using Store.BussinesLogic.Options;
-using Store.DataAccess.Dependency_Injection;
 using Store.DataAccess.DependencyInjection;
 using Store.Presentation.Middlewares;
 using System.IO;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Store.DataAccess.Entities;
+using Store.DataAccess.Initialization;
 
 namespace Store.Presentation
 {
@@ -72,8 +75,9 @@ namespace Store.Presentation
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, RoleManager<Role> roleManager, UserManager<ApplicationUser> userManager)
         {
+            BaseSeedData.InitIfNotExist(roleManager, userManager).Wait();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

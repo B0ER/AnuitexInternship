@@ -4,14 +4,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Store.DataAccess.AppContext;
 using Store.DataAccess.Entities;
 
-namespace Store.DataAccess.Dependency_Injection
+namespace Store.DataAccess.DependencyInjection
 {
     public static class DatabaseExtension
     {
         public static void AddApplicationDatabase(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration["DefaultConnection"]));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration["DefaultConnection"]));
 
             services.AddIdentity<ApplicationUser, Role>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();

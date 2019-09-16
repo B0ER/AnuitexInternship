@@ -1,23 +1,33 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Store.DataAccess.Entities;
+using System.Threading.Tasks;
 
 namespace Store.DataAccess.Initialization
 {
-    internal static class BaseSeedData
+    public static class BaseSeedData
     {
-        public static async void AddRoles(RoleManager<Role> roleManager)
+        private static async Task AddRolesAsync(RoleManager<Role> roleManager)
         {
             await roleManager.CreateAsync(new Role { Name = Constants.Roles.Admin });
             await roleManager.CreateAsync(new Role { Name = Constants.Roles.User });
-            await roleManager.CreateAsync(new Role { Name = Constants.Roles.Guest });
         }
 
-        public static async void AddAdmins(UserManager<ApplicationUser> userManager)
+        private static async Task AddAdminsAsync(UserManager<ApplicationUser> userManager)
         {
-            var admin = new ApplicationUser { UserName = Constants.Roles.Admin };
+            var admin = new ApplicationUser { UserName = Constants.AdminEmail, Email = Constants.AdminEmail };
             await userManager.CreateAsync(admin);
-            await userManager.AddPasswordAsync(admin, "pas");
+            await userManager.AddPasswordAsync(admin, Constants.AdminPassword);
             await userManager.AddToRoleAsync(admin, Constants.Roles.Admin);
+        }
+
+        public static async Task InitIfNotExist(RoleManager<Role> roleManager, UserManager<ApplicationUser> userManager)
+        {
+            var admin = await userManager.FindByEmailAsync(Constants.AdminEmail);
+            if (admin == null)
+            {
+                await AddRolesAsync(roleManager);
+                await AddAdminsAsync(userManager);
+            }
         }
     }
 }
