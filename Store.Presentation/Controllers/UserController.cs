@@ -17,34 +17,34 @@ namespace Store.Presentation.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<UserModel>> GetAll()
+        public async Task<ActionResult<UserModel>> GetAllAsync()
         {
             UserModel users = await _userService.GetAllAsync();
             return users;
         }
 
         [HttpGet("{userId}")]
-        public async Task<ActionResult<UserItemModel>> GetById([FromRoute] long userId)
+        public async Task<ActionResult<UserItemModel>> GetByIdAsync([FromRoute] long userId)
         {
             var user = await _userService.FindByIdAsync(userId);
             return user;
         }
 
         [HttpDelete("{userId}")]
-        public async Task<IActionResult> Delete([FromRoute] long userId)
+        public async Task<IActionResult> DeleteAsync([FromRoute] long userId)
         {
             await _userService.DeleteByIdAsync(userId);
             return Ok();
         }
 
-        [HttpPatch("{userId}/[action]")]
-        public async Task<IActionResult> Update([FromRoute] long userId)
+        [HttpPatch("{userId}/")]
+        public async Task<IActionResult> UpdateAsync([FromRoute] long userId)
         {
             return Ok();
         }
 
-        [HttpPut("{userId}")]
-        public async Task<IActionResult> Create([FromRoute] long userId)
+        [HttpPost("{userId}/create")]
+        public async Task<IActionResult> CreateAsync([FromRoute] long userId)
         {
             return Ok();
         }

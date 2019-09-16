@@ -29,7 +29,6 @@ namespace Store.Presentation.Controllers
         public async Task<ActionResult<JwtAuthModel>> SignInAsync(UserSignInModel userRequest)
         {
             JwtAuthModel token = await _accountService.SignInAsync(userRequest);
-            //todo: rewrite response model
             return token;
         }
 
@@ -40,7 +39,7 @@ namespace Store.Presentation.Controllers
             string acceptSignupCode = await _accountService.GetConfirmCodeAsync(newUser);
 
             string acceptUrl = Url.Action(
-                        "ConfirmEmail",
+                        "ConfirmEmailAsync",
                         "Account",
                         new { userId = newUser.Id, code = acceptSignupCode },
                         protocol: HttpContext.Request.Scheme);
@@ -50,30 +49,30 @@ namespace Store.Presentation.Controllers
             return Ok();
         }
 
-        [HttpGet("[action]")]
-        public async Task<IActionResult> ConfirmEmail(long userId, string code)
+        [HttpGet("email/confirm")]
+        public async Task<IActionResult> ConfirmEmailAsync(long userId, string code)
         {
             await _accountService.ConfirmEmailAsync(userId, code);
             return Ok();
         }
 
-        [HttpPost("[action]")]
+        [Authorize]
+        [HttpPost("log-out")]
         public async Task<IActionResult> LogOutAsync()
         {
             await _accountService.LogOutAsync();
             return Ok();
         }
 
-        [Authorize]
-        [HttpPost("[action]")]
+        [HttpPost("password/reset")]
         public async Task<IActionResult> ResetPasswordAsync()
         {
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.GetUserAsync(User); //todo: write reset to Anonymous
             await _accountService.ResetPasswordAsync(user);
             return Ok();
         }
 
-        [HttpPost("[action]")]
+        [HttpPost("password/reset/accept")]
         public async Task<IActionResult> AcceptResetPasswordAsync(long userId, string restoreToken, string newPassword)
         {
             await _accountService.AcceptResetPasswordAsync(userId, restoreToken, newPassword);
@@ -81,7 +80,7 @@ namespace Store.Presentation.Controllers
         }
 
         [Authorize]
-        [HttpPost("[action]")]
+        [HttpPost("password/change")]
         public async Task<IActionResult> ChangePasswordAsync(UserChangePasswordModel userChangePasswordRequest)
         {
             var user = await _userManager.GetUserAsync(User);
