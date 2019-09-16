@@ -1,10 +1,6 @@
-﻿using Store.DataAccess.Entities.Base;
-using System;
+﻿using Store.DataAccess.Entities.Interfaces;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using Store.DataAccess.Entities;
-using Store.DataAccess.Entities.Interfaces;
 
 namespace Store.DataAccess.Repositories.Interfaces
 {
