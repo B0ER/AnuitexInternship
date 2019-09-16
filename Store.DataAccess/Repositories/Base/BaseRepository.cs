@@ -32,12 +32,18 @@ namespace Store.DataAccess.Repositories.Base
         public virtual async Task DeleteByIdAsync(long id)
         {
             var deletedItem = await _db.FindAsync<TItem>(id);
-            await Task.Run(() => _db.Remove<TItem>(deletedItem));
+            deletedItem.IsRemoved = true;
+            await Task.Run(() => _db.Set<TItem>().Update(deletedItem));
         }
 
         public virtual async Task<TItem> FindByIdAsync(long id)
         {
-            return await _db.FindAsync<TItem>(id);
+            var item = await _db.FindAsync<TItem>(id);
+            if (item == null)
+            {
+                throw new ObjectNotFoundException();
+            }
+            return item;
         }
 
         public virtual async Task<IEnumerable<TItem>> GetAllAsync()

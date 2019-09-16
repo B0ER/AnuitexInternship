@@ -4,6 +4,7 @@ using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Store.BusinessLogic.Model.User.Request;
 using Store.BusinessLogic.Model.User.Response;
 using Store.DataAccess;
 
@@ -44,9 +45,10 @@ namespace Store.Presentation.Controllers
         }
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = Constants.Roles.Admin)]
-        [HttpPatch("{userId}")]
-        public async Task<IActionResult> UpdateAsync([FromRoute] long userId)
+        [HttpPatch]
+        public async Task<IActionResult> UpdateAsync(UserUpdateRequest userUpdate)
         {
+            await _userService.UpdateAsync(userUpdate);
             return Ok();
         }
 

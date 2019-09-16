@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using Store.BusinessLogic.Model.User.Request;
 using Store.BusinessLogic.Model.User.Response;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
@@ -20,9 +21,9 @@ namespace Store.BusinessLogic.Services
             _userManager = userManager;
         }
 
-        public async Task AddAsync(ApplicationUser item)
+        public async Task AddAsync(ApplicationUser item, string password)
         {
-            await _userRepository.AddAsync(item);
+            await _userRepository.AddAsync(item, password);
         }
 
         public async Task DeleteAsync(ApplicationUser item)
@@ -50,9 +51,14 @@ namespace Store.BusinessLogic.Services
             return usersResponse;
         }
 
-        public async Task UpdateAsync(ApplicationUser item)
+        public async Task UpdateAsync(UserUpdateRequest item)
         {
-            await _userRepository.UpdateAsync(item);
+            var userUpdateDb = await _userRepository.FindByIdAsync(item.UserId);
+            userUpdateDb.UserName = item.Username;
+            userUpdateDb.Email = item.Email;
+            userUpdateDb.PasswordHash  =_userManager.PasswordHasher.HashPassword(userUpdateDb, item.Password);
+
+            await _userRepository.UpdateAsync(userUpdateDb);
         }
 
         public async Task<UserItemModel> GetProfileAsync(ClaimsPrincipal user)

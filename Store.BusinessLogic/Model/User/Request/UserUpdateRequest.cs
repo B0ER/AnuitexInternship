@@ -2,8 +2,13 @@
 
 namespace Store.BusinessLogic.Model.User.Request
 {
-    public class UserSignUpModel
+    public class UserUpdateRequest
     {
+        [Required]
+        public long UserId { get; set; }
+
+        [Required]
+        public string Username { get; set; }
         [Required]
         [EmailAddress]
         public string Email { get; set; }
