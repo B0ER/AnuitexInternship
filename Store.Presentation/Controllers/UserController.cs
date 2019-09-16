@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Store.BussinesLogic.Model.User.Response;
-using Store.BussinesLogic.Services.Interfaces;
+using Store.BusinessLogic.Services.Interfaces;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.User.Response;
 
 namespace Store.Presentation.Controllers
 {

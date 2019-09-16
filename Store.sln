@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.BussinesLogic", "Store.BussinesLogic\Store.BussinesLogic.csproj", "{6D06F70B-E0BE-4911-9506-357AF2C931D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.BusinessLogic", "Store.BusinessLogic\Store.BusinessLogic.csproj", "{6D06F70B-E0BE-4911-9506-357AF2C931D2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.DataAccess", "Store.DataAccess\Store.DataAccess.csproj", "{05B60066-3655-4B2B-B4EF-A6FD871334F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Presentation", "Store.Presentation\Store.Presentation.csproj", "{DC003988-A3AE-4F17-A95E-6928AB19B3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Presentation", "Store.Presentation\Store.Presentation.csproj", "{DC003988-A3AE-4F17-A95E-6928AB19B3ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

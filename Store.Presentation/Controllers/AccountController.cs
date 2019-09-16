@@ -2,13 +2,12 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using Store.BussinesLogic.Model.Account.Response;
-using Store.BussinesLogic.Model.Base;
-using Store.BussinesLogic.Model.User.Request;
-using Store.BussinesLogic.Services.Interfaces;
+using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Account.Response;
+using Store.BusinessLogic.Model.User.Request;
 
 namespace Store.Presentation.Controllers
 {

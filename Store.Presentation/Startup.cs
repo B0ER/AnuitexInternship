@@ -7,14 +7,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Store.BussinesLogic.Common;
-using Store.BussinesLogic.DependencyInjection;
-using Store.BussinesLogic.Options;
 using Store.DataAccess.DependencyInjection;
 using Store.Presentation.Middlewares;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using Store.BusinessLogic.Common;
+using Store.BusinessLogic.DependencyInjection;
+using Store.BusinessLogic.Options;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Initialization;
 

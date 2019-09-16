@@ -4047,3 +4047,1513 @@ Request finished in 29.2222ms 200
 
 ** Angular Live Development Server is listening on localhost:63277, open your browser on http://localhost:63277/ **
 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 63299...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 24.111ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "63299"
+
+** Angular Live Development Server is listening on localhost:63299, open your browser on http://localhost:63299/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:48:04.273Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7094ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:48:04 AM]: / - 200
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request finished in 10844.8206ms 200 text/html; charset=UTF-8
+[9/16/2019 10:48:04 AM]: /polyfills.js - 304
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request finished in 58.955ms 304 
+[9/16/2019 10:48:04 AM]: /runtime.js - 304
+Request finished in 40.8651ms 304 
+[9/16/2019 10:48:05 AM]: /styles.css - 304
+Request finished in 1050.2981ms 304 
+[9/16/2019 10:48:05 AM]: /main.js - 304
+Request finished in 1043.1476ms 304 
+[9/16/2019 10:48:05 AM]: /vendor.js - 304
+Request finished in 1063.9985ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568630885804  
+[9/16/2019 10:48:05 AM]: /sockjs-node/info - 200
+Request finished in 15.012ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/165/oh0iobep/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/165/yvhom5ur/xhr_streaming?t=1568630886525  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 53
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 167.1055ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+[9/16/2019 10:48:11 AM]: /api/account/sign-in - 400
+Request finished in 218.9159ms 400 application/problem+json; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 4382.234ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 4596.7706ms 500 text/html; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 7884.0433ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 8056.1777ms 500 text/html; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (19ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 58692...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 27.6636ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58692"
+
+** Angular Live Development Server is listening on localhost:58692, open your browser on http://localhost:58692/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:51:17.277Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7531ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:51:17 AM]: / - 304
+Request finished in 11170.2023ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/16/2019 10:51:17 AM]: /vendor.js - 304
+Request finished in 123.5319ms 304 
+[9/16/2019 10:51:18 AM]: /runtime.js - 304
+Request finished in 1041.7917ms 304 
+[9/16/2019 10:51:18 AM]: /main.js - 304
+[9/16/2019 10:51:18 AM]: /polyfills.js - 304
+[9/16/2019 10:51:18 AM]: /styles.css - 304
+Request finished in 1060.18ms 304 
+Request finished in 1094.8694ms 304 
+Request finished in 1067.8738ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568631078788  
+[9/16/2019 10:51:18 AM]: /sockjs-node/info - 200
+Request finished in 23.8842ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/792/lid1tyep/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/792/vstxcpa5/xhr_streaming?t=1568631079553  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (39ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+[9/16/2019 10:52:27 AM]: /sockjs-node/792/lid1tyep/websocket - 101
+Request finished in 68275.2778ms 101 
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 86440.1793ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 86692.318ms 500 text/html; charset=utf-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 58721...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 25.496ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58721"
+
+** Angular Live Development Server is listening on localhost:58721, open your browser on http://localhost:58721/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:54:41.595Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7176ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:54:41 AM]: / - 304
+Request finished in 10824.6926ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+[9/16/2019 10:54:41 AM]: /main.js - 304
+Request finished in 90.2264ms 304 
+[9/16/2019 10:54:42 AM]: /polyfills.js - 304
+[9/16/2019 10:54:42 AM]: /styles.css - 304
+[9/16/2019 10:54:42 AM]: /vendor.js - 304
+Request finished in 1098.1281ms 304 
+Request finished in 1131.2867ms 304 
+[9/16/2019 10:54:42 AM]: /runtime.js - 304
+Request finished in 1140.5132ms 304 
+Request finished in 1117.625ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568631283135  
+[9/16/2019 10:54:43 AM]: /sockjs-node/info - 200
+Request finished in 17.7839ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/979/kxuhk5bx/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/979/zhdjad1c/xhr_streaming?t=1568631283862  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 5446.0604ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 5683.0743ms 500 text/html; charset=utf-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (22ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 58752...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 30.0978ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58752"
+
+** Angular Live Development Server is listening on localhost:58752, open your browser on http://localhost:58752/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:57:09.888Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7228ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:57:09 AM]: / - 304
+Request finished in 10873.8044ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/16/2019 10:57:10 AM]: /runtime.js - 304
+Request finished in 101.1111ms 304 
+[9/16/2019 10:57:11 AM]: /styles.css - 304
+[9/16/2019 10:57:11 AM]: /vendor.js - 304
+[9/16/2019 10:57:11 AM]: /main.js - 304
+Request finished in 1096.3584ms 304 
+[9/16/2019 10:57:11 AM]: /polyfills.js - 304
+Request finished in 1080.9947ms 304 
+Request finished in 1064.7581ms 304 
+Request finished in 1097.4794ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568631431425  
+[9/16/2019 10:57:11 AM]: /sockjs-node/info - 200
+Request finished in 18.6245ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/082/jnbmkhz4/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/082/a32vh0mo/xhr_streaming?t=1568631432154  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (10ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 58817...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/082/a32vh0mo/xhr_streaming?t=1568631505251  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58817"
+
+** Angular Live Development Server is listening on localhost:58817, open your browser on http://localhost:58817/ **
+
+[9/16/2019 10:58:36 AM]: /sockjs-node/082/a32vh0mo/xhr_streaming - 200
+Request finished in 10325.8849ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-16T10:58:36.951Z
+Hash: 9f374647452a4bcd9e4b
+Time: 6947ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (127ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916103833_Init Migration'.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190916103833_Init Migration', N'2.2.6-servicing-10079');
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (17ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id]
+FROM [AspNetUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User 1 password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);
+Executed DbCommand (3ms) [Parameters=[@p14='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+SELECT @@ROWCOUNT;
+Starting @angular/cli on port 58844...
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 29.3586ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58844"
+
+** Angular Live Development Server is listening on localhost:58844, open your browser on http://localhost:58844/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T10:59:26.788Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7242ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 10:59:26 AM]: / - 304
+Request finished in 10770.8969ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+[9/16/2019 10:59:27 AM]: /vendor.js - 304
+Request finished in 135.1963ms 304 
+[9/16/2019 10:59:27 AM]: /runtime.js - 304
+Request finished in 1050.1522ms 304 
+[9/16/2019 10:59:27 AM]: /polyfills.js - 304
+Request finished in 1063.1473ms 304 
+[9/16/2019 10:59:27 AM]: /main.js - 304
+[9/16/2019 10:59:27 AM]: /styles.css - 304
+Request finished in 1088.3961ms 304 
+Request finished in 1089.5463ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568631568302  
+[9/16/2019 10:59:28 AM]: /sockjs-node/info - 200
+Request finished in 14.9767ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/773/yqlqpyun/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/773/12rbcqwi/xhr_streaming?t=1568631569007  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 71
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Invalid password for user 1.
+User 1 failed to provide the correct password.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 8740.6192ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+An unhandled exception has occurred while executing the request.
+Request finished in 8988.0077ms 500 text/html; charset=utf-8
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Starting @angular/cli on port 58872...
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/773/12rbcqwi/xhr_streaming?t=1568631599409  0
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "58872"
+
+** Angular Live Development Server is listening on localhost:58872, open your browser on http://localhost:58872/ **
+
+[9/16/2019 11:00:11 AM]: /sockjs-node/773/12rbcqwi/xhr_streaming - 200
+Request finished in 10770.1237ms 200 application/javascript; charset=UTF-8
+Date: 2019-09-16T11:00:11.301Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7052ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (121ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916103833_Init Migration'.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190916103833_Init Migration', N'2.2.6-servicing-10079');
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (17ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (10ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Application startup exception
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Connection id "0HLPQILRK6N5K", Request id "0HLPQILRK6N5K:00000001": An unhandled exception was thrown by the application.
+Connection id "0HLPQILRK6N5J", Request id "0HLPQILRK6N5J:00000001": An unhandled exception was thrown by the application.
+Connection id "0HLPQILRK6N5L", Request id "0HLPQILRK6N5L:00000001": An unhandled exception was thrown by the application.
+Request finished in 10.6498ms 500 
+Request finished in 11.4332ms 500 
+Request finished in 11.4353ms 500 
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request finished in 16.7789ms 500 text/html; charset=utf-8
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (169ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Store];
+Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Store] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+Applying migration '20190916103833_Init Migration'.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [TransactionId] nvarchar(max) NULL,
+    CONSTRAINT [PK_Payments] PRIMARY KEY ([Id])
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PrintingEditions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] int NOT NULL,
+    [Status] int NOT NULL,
+    [Currency] int NOT NULL,
+    [Type] int NOT NULL,
+    CONSTRAINT [PK_PrintingEditions] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] bigint NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] bigint NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [UserId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    [PaymentId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Payments_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payments] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Orders_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AuthorInBooks] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [AuthorId] bigint NULL,
+    [PrintingEditionId] bigint NULL,
+    [Date] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuthorInBooks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuthorInBooks_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_AuthorInBooks_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] bigint NOT NULL IDENTITY,
+    [CreationDate] datetime2 NOT NULL,
+    [IsRemoved] bit NOT NULL,
+    [Amount] int NOT NULL,
+    [Currency] int NOT NULL,
+    [PrintingEditionId] bigint NULL,
+    [Count] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_PrintingEditions_PrintingEditionId] FOREIGN KEY ([PrintingEditionId]) REFERENCES [PrintingEditions] ([Id]) ON DELETE NO ACTION
+);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_AuthorId] ON [AuthorInBooks] ([AuthorId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AuthorInBooks_PrintingEditionId] ON [AuthorInBooks] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_PrintingEditionId] ON [OrderItems] ([PrintingEditionId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PaymentId] ON [Orders] ([PaymentId]);
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190916103833_Init Migration', N'2.2.6-servicing-10079');
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (23ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 256), @p2='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [AspNetRoles]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Application startup exception
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Connection id "0HLPQINEQ82PJ", Request id "0HLPQINEQ82PJ:00000001": An unhandled exception was thrown by the application.
+Request finished in 12.7175ms 500 text/html; charset=utf-8
+Connection id "0HLPQINEQ82PI", Request id "0HLPQINEQ82PI:00000001": An unhandled exception was thrown by the application.
+Request finished in 15.7005ms 500 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (22ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (4ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (14ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Application startup exception
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Connection id "0HLPQIO0PSBEK", Request id "0HLPQIO0PSBEK:00000001": An unhandled exception was thrown by the application.
+Connection id "0HLPQIO0PSBEL", Request id "0HLPQIO0PSBEL:00000001": An unhandled exception was thrown by the application.
+Request finished in 9.0132ms 500 
+Request finished in 9.0128ms 500 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (19ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (18ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User (null) password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Application startup exception
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Connection id "0HLPQIP7Q0TDS", Request id "0HLPQIP7Q0TDS:00000001": An unhandled exception was thrown by the application.
+Connection id "0HLPQIP7Q0TDU", Request id "0HLPQIP7Q0TDU:00000001": An unhandled exception was thrown by the application.
+Connection id "0HLPQIP7Q0TDT", Request id "0HLPQIP7Q0TDT:00000001": An unhandled exception was thrown by the application.
+Request finished in 9.5525ms 500 
+Request finished in 10.0551ms 500 
+Request finished in 10.0507ms 500 
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (31ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+User profile is available. Using 'C:\Users\Anuitex\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (19ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Role (null) validation failed: DuplicateRoleName.
+Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id]
+FROM [AspNetUsers]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int64), @__get_Item_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+Executed DbCommand (6ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);
+Executed DbCommand (3ms) [Parameters=[@p14='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+SELECT @@ROWCOUNT;
+Starting @angular/cli on port 59023...
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 GET http://localhost:44382/  
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request starting HTTP/1.1 DEBUG http://localhost:54522/  0
+Request finished in 26.9682ms 200 
+Request finished in 26.9682ms 200 
+> Store.Presentation@0.0.0 start C:\Users\Anuitex\source\repos\Store\Store.Presentation\ClientApp
+> ng serve "--port" "59023"
+
+** Angular Live Development Server is listening on localhost:59023, open your browser on http://localhost:59023/ **
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+i ∩╜ówdm∩╜ú: wait until bundle finished: /
+
+Date: 2019-09-16T11:17:52.155Z
+Hash: 9f374647452a4bcd9e4b
+Time: 7477ms
+chunk {main} main.js, main.js.map (main) 26.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 144 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+
+[9/16/2019 11:17:52 AM]: / - 200
+Request starting HTTP/1.1 GET http://localhost:44382/vendor.js  
+Request starting HTTP/1.1 GET http://localhost:44382/styles.css  
+[9/16/2019 11:17:52 AM]: / - 200
+Request starting HTTP/1.1 GET http://localhost:44382/polyfills.js  
+Request finished in 11450.5524ms 200 text/html; charset=UTF-8
+Request finished in 11451.0075ms 200 text/html; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/runtime.js  
+Request starting HTTP/1.1 GET http://localhost:44382/main.js  
+[9/16/2019 11:17:52 AM]: /vendor.js - 304
+[9/16/2019 11:17:52 AM]: /styles.css - 304
+Request finished in 137.4854ms 304 
+Request finished in 140.8075ms 304 
+[9/16/2019 11:17:53 AM]: /polyfills.js - 304
+Request finished in 1021.5575ms 304 
+[9/16/2019 11:17:53 AM]: /main.js - 304
+Request finished in 1012.7974ms 304 
+[9/16/2019 11:17:53 AM]: /runtime.js - 304
+Request finished in 1029.2901ms 304 
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/info?t=1568632673661  
+[9/16/2019 11:17:53 AM]: /sockjs-node/info - 200
+Request finished in 13.4283ms 200 application/json; charset=UTF-8
+Request starting HTTP/1.1 GET http://localhost:44382/sockjs-node/203/nzsklmgh/websocket  
+Request starting HTTP/1.1 POST http://localhost:44382/sockjs-node/203/ckfd2c1y/xhr_streaming?t=1568632674371  0
+Request starting HTTP/1.1 POST http://localhost:44382/api/account/sign-in application/json 79
+Executing endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+Route matched with {action = "SignInAsync", controller = "Account", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Store.BussinesLogic.Model.Account.Response.JwtAuthModel]] SignInAsync(Store.BussinesLogic.Model.User.Request.UserSignInModel) on controller Store.Presentation.Controllers.AccountController (Store.Presentation).
+Executing action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) - Validation state: Valid
+Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+AuthenticationScheme: Identity.Application signed in.
+Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+AuthenticationScheme: Identity.Application signed in.
+Executed action method Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8771.9803ms.
+Executing ObjectResult, writing value of type 'Store.BussinesLogic.Model.Account.Response.JwtAuthModel'.
+Executed action Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation) in 8888.5456ms
+Executed endpoint 'Store.Presentation.Controllers.AccountController.SignInAsync (Store.Presentation)'
+[9/16/2019 11:18:21 AM]: /api/account/sign-in - 200
+Request finished in 8954.3627ms 200 application/json; charset=utf-8

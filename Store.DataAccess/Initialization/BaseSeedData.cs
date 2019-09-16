@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System;
+using Microsoft.AspNetCore.Identity;
 using Store.DataAccess.Entities;
 using System.Threading.Tasks;
 
@@ -14,9 +15,14 @@ namespace Store.DataAccess.Initialization
 
         private static async Task AddAdminsAsync(UserManager<ApplicationUser> userManager)
         {
-            var admin = new ApplicationUser { UserName = Constants.AdminEmail, Email = Constants.AdminEmail };
-            await userManager.CreateAsync(admin);
-            await userManager.AddPasswordAsync(admin, Constants.AdminPassword);
+            var admin = new ApplicationUser
+            {
+                UserName = Constants.AdminEmail,
+                Email = Constants.AdminEmail,
+                EmailConfirmed = true,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+            IdentityResult result = await userManager.CreateAsync(admin, Constants.AdminPassword);
             await userManager.AddToRoleAsync(admin, Constants.Roles.Admin);
         }
 
