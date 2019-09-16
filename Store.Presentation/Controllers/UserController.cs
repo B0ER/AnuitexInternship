@@ -37,7 +37,7 @@ namespace Store.Presentation.Controllers
             return Ok();
         }
 
-        [HttpPatch("{userId}/")]
+        [HttpPatch("{userId}")]
         public async Task<IActionResult> UpdateAsync([FromRoute] long userId)
         {
             return Ok();

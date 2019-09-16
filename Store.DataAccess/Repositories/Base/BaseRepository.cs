@@ -3,10 +3,11 @@ using Store.DataAccess.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Store.DataAccess.Entities.Interfaces;
 
 namespace Store.DataAccess.Repositories.Base
 {
-    public class BaseRepository<TItem> : IGenericRepository<TItem> where TItem : class
+    public class BaseRepository<TItem> : IGenericRepository<TItem> where TItem : class, IBaseEntity
     {
         private ApplicationDbContext _db;
         public BaseRepository(ApplicationDbContext db)
@@ -23,7 +24,8 @@ namespace Store.DataAccess.Repositories.Base
         {
             await Task.Run(() =>
             {
-                _db.Remove<TItem>(item);
+                item.IsRemoved = true;
+                _db.Set<TItem>().Update(item);
             });
         }
 

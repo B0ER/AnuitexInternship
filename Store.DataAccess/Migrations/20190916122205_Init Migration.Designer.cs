@@ -10,7 +10,7 @@ using Store.DataAccess.AppContext;
 namespace Store.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190916103833_Init Migration")]
+    [Migration("20190916122205_Init Migration")]
     partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -115,10 +115,14 @@ namespace Store.DataAccess.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
+                    b.Property<DateTime>("CreationDate");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed");
+
+                    b.Property<bool>("IsRemoved");
 
                     b.Property<bool>("LockoutEnabled");
 
@@ -302,6 +306,10 @@ namespace Store.DataAccess.Migrations
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<DateTime>("CreationDate");
+
+                    b.Property<bool>("IsRemoved");
 
                     b.Property<string>("Name")
                         .HasMaxLength(256);

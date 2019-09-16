@@ -113,10 +113,14 @@ namespace Store.DataAccess.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
+                    b.Property<DateTime>("CreationDate");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed");
+
+                    b.Property<bool>("IsRemoved");
 
                     b.Property<bool>("LockoutEnabled");
 
@@ -300,6 +304,10 @@ namespace Store.DataAccess.Migrations
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<DateTime>("CreationDate");
+
+                    b.Property<bool>("IsRemoved");
 
                     b.Property<string>("Name")
                         .HasMaxLength(256);
