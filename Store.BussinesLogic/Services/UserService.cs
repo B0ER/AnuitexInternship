@@ -1,4 +1,4 @@
-﻿using Store.BussinesLogic.Model.Base;
+﻿using Store.BussinesLogic.Model.User.Response;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;
@@ -30,19 +30,18 @@ namespace Store.BussinesLogic.Services
             await _userRepository.DeleteByIdAsync(id);
         }
 
-        public async Task<BaseItemResponse<UserItem>> FindByIdAsync(long id)
+        public async Task<UserItemModel> FindByIdAsync(long id)
         {
             var appUser = await _userRepository.FindByIdAsync(id);
-            var userItem = new UserItem { UserName = appUser.UserName };
-            var userResponse = new BaseItemResponse<UserItem> { Item = userItem };
+            var userResponse = new UserItemModel { UserName = appUser.UserName };
             return userResponse;
         }
 
-        public async Task<BaseListResponse<UserItem>> GetAllAsync()
+        public async Task<UserModel> GetAllAsync()
         {
             var appUsers = await _userRepository.GetAllAsync();
-            var userItems = appUsers.Select((user) => new UserItem { UserName = user.UserName });
-            var usersResponse = new BaseListResponse<UserItem>();
+            var usersResponse = new UserModel();
+            usersResponse.Users = appUsers.Select((user) => new UserItemModel { UserName = user.UserName });
             return usersResponse;
         }
 

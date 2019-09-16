@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Store.BussinesLogic.Exceptions;
 using Store.BussinesLogic.Helpers;
-using Store.BussinesLogic.Model.User;
+using Store.BussinesLogic.Model.Account.Response;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
@@ -14,11 +14,10 @@ namespace Store.BussinesLogic.Services.AccountService
 {
     public class AccountService : IAccountService
     {
-        //todo: readonly
-        private UserManager<ApplicationUser> _userManager;
-        private SignInManager<ApplicationUser> _signInManager;
-        private IUserRepository _userRepository;
-        private JwtManager _jwtManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly IUserRepository _userRepository;
+        private readonly JwtManager _jwtManager;
 
         public AccountService(UserManager<ApplicationUser> userManager,
                               SignInManager<ApplicationUser> signInManager,

@@ -1,4 +1,4 @@
-﻿using Store.BussinesLogic.Model.User;
+﻿using Store.BussinesLogic.Model.Account.Response;
 using Store.BussinesLogic.Model.User.Request;
 using Store.DataAccess.Entities;
 using System.Threading.Tasks;

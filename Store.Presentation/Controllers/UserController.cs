@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Store.BussinesLogic.Model.Base;
+using Store.BussinesLogic.Model.User.Response;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
@@ -17,14 +17,14 @@ namespace Store.Presentation.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<BaseListResponse<UserItem>>> GetAll()
+        public async Task<ActionResult<UserModel>> GetAll()
         {
-            BaseListResponse<UserItem> users = await _userService.GetAllAsync();
+            UserModel users = await _userService.GetAllAsync();
             return users;
         }
 
         [HttpGet("{userId}")]
-        public async Task<ActionResult<BaseItemResponse<UserItem>>> GetById([FromRoute] long userId)
+        public async Task<ActionResult<UserItemModel>> GetById([FromRoute] long userId)
         {
             var user = await _userService.FindByIdAsync(userId);
             return user;

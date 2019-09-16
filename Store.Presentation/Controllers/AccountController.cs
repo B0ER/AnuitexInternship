@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Store.BussinesLogic.Model.Account.Response;
 using Store.BussinesLogic.Model.Base;
-using Store.BussinesLogic.Model.User;
 using Store.BussinesLogic.Model.User.Request;
 using Store.BussinesLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
@@ -27,11 +27,11 @@ namespace Store.Presentation.Controllers
         }
 
         [HttpPost("sign-in")]
-        public async Task<ActionResult<BaseItemResponse<JwtAuthModel>>> SignInAsync(UserSignInModel userRequest)
+        public async Task<ActionResult<JwtAuthModel>> SignInAsync(UserSignInModel userRequest)
         {
             JwtAuthModel token = await _accountService.SignInAsync(userRequest);
             //todo: rewrite response model
-            return BaseItemResponse<JwtAuthModel>.CreateResponse(token);
+            return token;
         }
 
         [HttpPost("sign-up")]
