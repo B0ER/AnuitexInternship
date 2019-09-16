@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Security.Claims;
+using System.Threading.Tasks;
 using Store.BusinessLogic.Model.User.Response;
 using Store.DataAccess.Entities;
 
@@ -12,5 +13,6 @@ namespace Store.BusinessLogic.Services.Interfaces
         Task DeleteAsync(ApplicationUser item); //todo: 
         Task DeleteByIdAsync(long id);
         Task UpdateAsync(ApplicationUser item); //todo: 
+        Task<UserItemModel> GetProfileAsync(ClaimsPrincipal user);
     }
 }
