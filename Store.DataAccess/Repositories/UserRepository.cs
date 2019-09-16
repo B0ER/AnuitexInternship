@@ -11,12 +11,10 @@ namespace Store.DataAccess.Repositories
     public class UserRepository : BaseRepository<ApplicationUser>, IUserRepository
     {
         private UserManager<ApplicationUser> _userManager;
-        private RoleManager<Role> _roleManager;
 
-        public UserRepository(ApplicationDbContext db, UserManager<ApplicationUser> userManager, RoleManager<Role> roleManager) : base(db)
+        public UserRepository(ApplicationDbContext db, UserManager<ApplicationUser> userManager) : base(db)
         {
             _userManager = userManager;
-            _roleManager = roleManager;
         }
 
         public async Task AddAsync(ApplicationUser newUser, string password)

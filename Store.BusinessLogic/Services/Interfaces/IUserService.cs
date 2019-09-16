@@ -10,7 +10,7 @@ namespace Store.BusinessLogic.Services.Interfaces
     {
         Task<UserModel> GetAllAsync();
         Task<UserItemModel> FindByIdAsync(long id);
-        Task AddAsync(ApplicationUser item, string password); 
+        Task AddAsync(UserCreateRequest userCreateRequest); 
         Task DeleteAsync(ApplicationUser item); 
         Task DeleteByIdAsync(long id);
         Task UpdateAsync(UserUpdateRequest item); 

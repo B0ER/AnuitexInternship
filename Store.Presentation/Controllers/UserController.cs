@@ -54,8 +54,9 @@ namespace Store.Presentation.Controllers
 
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = Constants.Roles.Admin)]
         [HttpPost("{userId}/create")]
-        public async Task<IActionResult> CreateAsync([FromRoute] long userId)
+        public async Task<IActionResult> CreateAsync(UserCreateRequest userCreateRequest)
         {
+            await _userService.AddAsync(userCreateRequest);
             return Ok();
         }
 

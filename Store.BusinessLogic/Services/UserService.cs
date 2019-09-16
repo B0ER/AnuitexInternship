@@ -21,9 +21,12 @@ namespace Store.BusinessLogic.Services
             _userManager = userManager;
         }
 
-        public async Task AddAsync(ApplicationUser item, string password)
+        public async Task AddAsync(UserCreateRequest userCreateRequest)
         {
-            await _userRepository.AddAsync(item, password);
+            var newUser = new ApplicationUser();
+            newUser.UserName = userCreateRequest.Email;
+            newUser.EmailConfirmed = true;
+            await _userRepository.AddAsync(newUser, userCreateRequest.Password);
         }
 
         public async Task DeleteAsync(ApplicationUser item)
