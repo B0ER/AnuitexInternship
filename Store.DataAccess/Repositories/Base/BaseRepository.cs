@@ -9,7 +9,7 @@ namespace Store.DataAccess.Repositories.Base
 {
     public class BaseRepository<TItem> : IGenericRepository<TItem> where TItem : class, IBaseEntity
     {
-        private ApplicationDbContext _db;
+        protected ApplicationDbContext _db;
         public BaseRepository(ApplicationDbContext db)
         {
             _db = db;
