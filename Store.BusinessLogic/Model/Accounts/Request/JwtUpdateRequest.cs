@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Store.BusinessLogic.Model.Account.Request
+namespace Store.BusinessLogic.Model.Accounts.Request
 {
     public class JwtUpdateRequest
     {

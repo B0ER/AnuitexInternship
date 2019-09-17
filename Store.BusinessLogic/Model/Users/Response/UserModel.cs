@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Store.BusinessLogic.Model.Base;
 
-namespace Store.BusinessLogic.Model.User.Response
+namespace Store.BusinessLogic.Model.Users.Response
 {
     public class UserModel : BaseResponse
     {

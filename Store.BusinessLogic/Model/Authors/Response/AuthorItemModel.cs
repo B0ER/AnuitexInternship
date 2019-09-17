@@ -1,6 +1,6 @@
 ﻿using Store.BusinessLogic.Model.Base;
 
-namespace Store.BusinessLogic.Model.Author.Response
+namespace Store.BusinessLogic.Model.Authors.Response
 {
     public class AuthorItemModel : BaseResponse
     {

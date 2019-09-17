@@ -2,8 +2,8 @@
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-using Store.BusinessLogic.Model.User.Request;
-using Store.BusinessLogic.Model.User.Response;
+using Store.BusinessLogic.Model.Users.Request;
+using Store.BusinessLogic.Model.Users.Response;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;

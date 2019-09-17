@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
-using Store.BusinessLogic.Model.Author.Request;
-using Store.BusinessLogic.Model.Author.Response;
+using Store.BusinessLogic.Model.Authors.Request;
+using Store.BusinessLogic.Model.Authors.Response;
 
 namespace Store.BusinessLogic.Services.Interfaces
 {

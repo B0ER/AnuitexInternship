@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Entities.Enums;
 
-namespace Store.BusinessLogic.Model.Book.Request
+namespace Store.BusinessLogic.Model.Books.Request
 {
     public class BookUpdateRequest
     {

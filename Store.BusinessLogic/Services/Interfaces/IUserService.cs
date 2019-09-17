@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
 using System.Threading.Tasks;
-using Store.BusinessLogic.Model.User.Request;
-using Store.BusinessLogic.Model.User.Response;
+using Store.BusinessLogic.Model.Users.Request;
+using Store.BusinessLogic.Model.Users.Response;
 using Store.DataAccess.Entities;
 
 namespace Store.BusinessLogic.Services.Interfaces

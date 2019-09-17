@@ -1,4 +1,4 @@
-﻿namespace Store.BusinessLogic.Model.Author.Request
+﻿namespace Store.BusinessLogic.Model.Authors.Request
 {
     public class AuthorCreateRequest
     {

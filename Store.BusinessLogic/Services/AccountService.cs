@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Store.BusinessLogic.Exceptions;
 using Store.BusinessLogic.Helpers;
-using Store.BusinessLogic.Model.Account.Response;
-using Store.BusinessLogic.Model.User.Request;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;
@@ -12,6 +10,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Accounts.Response;
+using Store.BusinessLogic.Model.Users.Request;
 
 namespace Store.BusinessLogic.Services
 {

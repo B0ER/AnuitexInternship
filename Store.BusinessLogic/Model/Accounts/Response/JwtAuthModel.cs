@@ -1,6 +1,6 @@
 ﻿using Store.BusinessLogic.Model.Base;
 
-namespace Store.BusinessLogic.Model.Account.Response
+namespace Store.BusinessLogic.Model.Accounts.Response
 {
     public class JwtAuthModel : BaseResponse
     {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Store.BusinessLogic.Model.Author.Request;
-using Store.BusinessLogic.Model.Author.Response;
+using Store.BusinessLogic.Model.Authors.Request;
+using Store.BusinessLogic.Model.Authors.Response;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;

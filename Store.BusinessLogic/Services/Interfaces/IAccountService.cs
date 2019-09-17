@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
-using Store.BusinessLogic.Model.Account.Response;
-using Store.BusinessLogic.Model.User.Request;
+using Store.BusinessLogic.Model.Accounts.Response;
+using Store.BusinessLogic.Model.Users.Request;
 using Store.DataAccess.Entities;
 
 namespace Store.BusinessLogic.Services.Interfaces

@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Store.BusinessLogic.Model.User.Request;
-using Store.BusinessLogic.Model.User.Response;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Users.Request;
+using Store.BusinessLogic.Model.Users.Response;
 
 namespace Store.Presentation.Controllers
 {

@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Store.BusinessLogic.Model.Base;
 
-namespace Store.BusinessLogic.Model.Author.Response
+namespace Store.BusinessLogic.Model.Authors.Response
 {
     public class AuthorModel : BaseResponse
     {

@@ -1,10 +1,10 @@
-﻿using Store.BusinessLogic.Model.Book.Request;
-using Store.BusinessLogic.Model.Book.Response;
-using Store.BusinessLogic.Services.Interfaces;
+﻿using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Repositories.Interfaces;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Books.Request;
+using Store.BusinessLogic.Model.Books.Response;
 
 namespace Store.BusinessLogic.Services
 {

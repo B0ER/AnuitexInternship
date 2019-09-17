@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Store.BusinessLogic.Model.User.Request
+namespace Store.BusinessLogic.Model.Users.Request
 {
     public class UserCreateRequest
     {

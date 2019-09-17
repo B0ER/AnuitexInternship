@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Store.BusinessLogic.Model.Book.Request;
-using Store.BusinessLogic.Model.Book.Response;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Books.Request;
+using Store.BusinessLogic.Model.Books.Response;
 
 namespace Store.Presentation.Controllers
 {
