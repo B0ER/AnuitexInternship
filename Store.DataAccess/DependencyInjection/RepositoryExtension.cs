@@ -1,10 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Store.DataAccess.AppContext;
 using Store.DataAccess.Repositories;
 using Store.DataAccess.Repositories.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Store.DataAccess.DependencyInjection
 {
@@ -12,6 +8,12 @@ namespace Store.DataAccess.DependencyInjection
     {
         public static void AddRepository(this IServiceCollection services)
         {
+            services.AddScoped<IAuthorInBookRepository, AuthorInBookRepository>();
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
+            services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IPrintingEditionRepository, PrintingEditionRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
         }
 
