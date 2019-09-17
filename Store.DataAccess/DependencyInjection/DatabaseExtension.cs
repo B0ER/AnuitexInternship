@@ -10,7 +10,11 @@ namespace Store.DataAccess.DependencyInjection
     {
         public static void AddApplicationDatabase(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration["DefaultConnection"]));
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseLazyLoadingProxies()
+                    .UseSqlServer(configuration["DefaultConnection"]);
+            });
 
             services.AddIdentity<ApplicationUser, Role>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();

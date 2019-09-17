@@ -16,5 +16,6 @@ namespace Store.BusinessLogic.Services.Interfaces
         Task<string> ResetPasswordAsync(ApplicationUser user);
         Task AcceptResetPasswordAsync(long userId, string restoreToken, string newPassword);
         Task LogOutAsync();
+        Task<JwtAuthModel> RefreshTokenAsync(string refreshToken);
     }
 }

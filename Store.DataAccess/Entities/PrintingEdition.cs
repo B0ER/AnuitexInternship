@@ -12,6 +12,6 @@ namespace Store.DataAccess.Entities
         public int Currency { get; set; }
         public int Type { get; set; }
 
-        public IList<AuthorInBook> AuthorsBooks { get; set; }
+        public virtual IList<AuthorInBook> AuthorsBooks { get; set; }
     }
 }

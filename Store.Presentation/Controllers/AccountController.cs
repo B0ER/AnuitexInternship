@@ -8,6 +8,7 @@ using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.Presentation.Controllers.Base;
 using System.Threading.Tasks;
+using Store.BusinessLogic.Model.Account.Request;
 
 namespace Store.Presentation.Controllers
 {
@@ -30,6 +31,13 @@ namespace Store.Presentation.Controllers
         {
             JwtAuthModel token = await _accountService.SignInAsync(userRequest);
             return token;
+        }
+
+        [HttpPost("refresh-token")]
+        public async Task<ActionResult<JwtAuthModel>> RefreshTokenAsync([FromBody] JwtUpdateRequest request)
+        {
+            var jwtAuthModel = await _accountService.RefreshTokenAsync(request.RefreshToken);
+            return jwtAuthModel;
         }
 
         [HttpPost("sign-up")]

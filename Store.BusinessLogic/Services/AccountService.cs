@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Store.BusinessLogic.Exceptions;
 using Store.BusinessLogic.Helpers;
 using Store.BusinessLogic.Model.Account.Response;
@@ -8,6 +6,12 @@ using Store.BusinessLogic.Model.User.Request;
 using Store.BusinessLogic.Services.Interfaces;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Repositories.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Store.BusinessLogic.Services
 {
@@ -57,9 +61,7 @@ namespace Store.BusinessLogic.Services
 
             IEnumerable<string> userRoles = await _signInManager.UserManager.GetRolesAsync(user);
 
-            var tokensResponse = new JwtAuthModel();
-            tokensResponse.AccessToken = _jwtManager.GenerateAccessToken(user, userRoles);
-            tokensResponse.RefreshToken = _jwtManager.GenerateRefreshToken(user);
+            var tokensResponse = CreateJwtAuthModel(user, userRoles);
 
             return tokensResponse;
         }
@@ -99,10 +101,40 @@ namespace Store.BusinessLogic.Services
             await _signInManager.SignOutAsync();
         }
 
+        public async Task<JwtAuthModel> RefreshTokenAsync(string refreshToken)
+        {
+            JwtSecurityToken refreshSecurityToken = new JwtSecurityTokenHandler().ReadJwtToken(refreshToken);
+            var userIdClaim = refreshSecurityToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+            {
+                throw new InvalidOperationException("UserId can't found in claims");
+            }
+
+            if (refreshSecurityToken.ValidTo < DateTime.UtcNow)
+            {
+                throw new InvalidOperationException("Token invalid");
+            }
+
+            var user = await _signInManager.UserManager.FindByIdAsync(userIdClaim.Value);
+            IEnumerable<string> userRoles = await _signInManager.UserManager.GetRolesAsync(user);
+            var jwtAuth = CreateJwtAuthModel(user, userRoles);
+            return jwtAuth;
+        }
+
         public async Task<ApplicationUser> GetMeAsync(long userId)
         {
             //todo: add dto
             return await _userRepository.FindByIdAsync(userId);
+        }
+
+        private JwtAuthModel CreateJwtAuthModel(ApplicationUser user, IEnumerable<string> userRoles)
+        {
+            var tokensResponse = new JwtAuthModel
+            {
+                AccessToken = _jwtManager.GenerateAccessToken(user, userRoles),
+                RefreshToken = _jwtManager.GenerateRefreshToken(user)
+            };
+            return tokensResponse;
         }
     }
 }

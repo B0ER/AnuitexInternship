@@ -6,7 +6,7 @@ namespace Store.DataAccess.Entities
     {
         public int Amount { get; set; }
         public int Currency { get; set; }
-        public PrintingEdition PrintingEdition { get; set; }
+        public virtual PrintingEdition PrintingEdition { get; set; }
         public int Count { get; set; }
     }
 }

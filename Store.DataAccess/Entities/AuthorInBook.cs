@@ -5,8 +5,8 @@ namespace Store.DataAccess.Entities
 {
     public class AuthorInBook : BaseEntity
     {
-        public Author Author { get; set; }
-        public PrintingEdition PrintingEdition { get; set; }
+        public virtual Author Author { get; set; }
+        public virtual PrintingEdition PrintingEdition { get; set; }
         public DateTime Date { get; set; }
     }
 }
