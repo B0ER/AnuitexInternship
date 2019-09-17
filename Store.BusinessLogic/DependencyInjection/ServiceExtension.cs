@@ -9,6 +9,7 @@ namespace Store.BusinessLogic.DependencyInjection
         public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IBookService, BookService>();
             services.AddScoped<IUserService, UserService>();
         }
     }

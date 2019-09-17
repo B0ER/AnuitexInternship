@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Store.DataAccess
+namespace Store.DataAccess.Exceptions
 {
     public class ObjectNotFoundException : Exception
     {

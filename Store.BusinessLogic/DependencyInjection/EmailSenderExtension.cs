@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.DependencyInjection;
+using Store.BusinessLogic.Helpers;
 
 namespace Store.BusinessLogic.DependencyInjection
 {

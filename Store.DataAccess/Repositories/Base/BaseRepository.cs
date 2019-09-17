@@ -1,9 +1,10 @@
 ﻿using Store.DataAccess.AppContext;
+using Store.DataAccess.Entities.Interfaces;
+using Store.DataAccess.Exceptions;
 using Store.DataAccess.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Store.DataAccess.Entities.Interfaces;
 
 namespace Store.DataAccess.Repositories.Base
 {

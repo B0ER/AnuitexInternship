@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Options;
 using Store.BusinessLogic.Options;
 
-namespace Store.BusinessLogic
+namespace Store.BusinessLogic.Helpers
 {
     public class EmailSender : IEmailSender
     {

@@ -16,6 +16,7 @@ namespace Store.Presentation.Controllers
             _bookRepository = bookRepository;
         }
 
+        [HttpGet]
         public async Task<BookModel> GetAllAsync()
         {
             return await _bookRepository.GetAllAsync();
