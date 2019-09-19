@@ -24,7 +24,7 @@ export class AuthenticationService {
   }
 
   login(Email: string, Password: string, RememberMe: boolean = false) {
-    return this.httpClient.post<JwtReponse>(`${this.baseUrl}/account/sign-in`, { Email, Password, RememberMe })
+    return this.httpClient.post<JwtReponse>(`${this.baseUrl}api/account/sign-in`, { Email, Password, RememberMe })
       .pipe(map(jwt => {
         localStorage.setItem('jwt', JSON.stringify(jwt));
         this.currentJwtSubject.next(jwt);
@@ -33,13 +33,13 @@ export class AuthenticationService {
   }
 
   register(Email: string, Password: string, PasswordRepeat: string) {
-    return this.httpClient.post(`${this.baseUrl}/account/sign-up`, { Email, Password, PasswordRepeat });
+    return this.httpClient.post(`${this.baseUrl}api/account/sign-up`, { Email, Password, PasswordRepeat });
   }
 
   logout() {
     localStorage.removeItem('jwt');
     let jwtSignOutObservable = this.httpClient.post(
-      `${this.baseUrl}/account/sign-out`,
+      `${this.baseUrl}api/account/sign-out`,
       {},
       { headers: { 'Authorization': `Bearer ${this.currentJwtSubject.value.accessToken}` } }
     )

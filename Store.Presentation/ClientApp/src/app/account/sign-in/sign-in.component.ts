@@ -32,14 +32,12 @@ export class SignInComponent implements OnInit {
       return;
     }
 
-    this.router.navigate(['/']);
+    let formData = this.signInForm.value;
 
-    /*
-    this.authService.login(this.signInForm.controls.login.value, this.signInForm.controls.password.value, this.signInForm.controls.rememberMe.value)
+    this.authService.login(formData.login, formData.password, formData.rememberMe)
       .subscribe((jwt) => {
-        this.router.navigate(['global']);
+        this.router.navigate(['/']);
       });
-    */
   }
 
   onReset() {

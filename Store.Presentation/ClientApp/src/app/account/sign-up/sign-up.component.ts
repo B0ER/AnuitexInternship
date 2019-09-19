@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AuthenticationService } from 'src/app/_shared/_services/authentication/authentication.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-up',
@@ -9,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class SignUpComponent implements OnInit {
   signUpForm: FormGroup;
   submitted: boolean = false;
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private authService: AuthenticationService, private router: Router) { }
 
   ngOnInit() {
     this.signUpForm = this.formBuilder.group({
@@ -29,8 +31,10 @@ export class SignUpComponent implements OnInit {
 
           // set error on matchingControl if validation fails
           if (control.value !== matchingControl.value) {
+            control.setErrors({ mustMatch: true });
             matchingControl.setErrors({ mustMatch: true });
           } else {
+            control.setErrors(null);
             matchingControl.setErrors(null);
           }
         }
@@ -44,7 +48,13 @@ export class SignUpComponent implements OnInit {
     if (this.signUpForm.invalid) {
       return;
     }
-    alert(JSON.stringify(this.signUpForm.value));
+
+    let formData = this.signUpForm.value;
+
+    this.authService.login(formData.login, formData.password, formData.rememberMe)
+      .subscribe((jwt) => {
+        this.router.navigate(['/']);
+      });
   }
 
   onReset() {
