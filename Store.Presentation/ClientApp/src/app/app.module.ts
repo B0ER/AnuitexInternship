@@ -7,7 +7,7 @@ import { AccountModule } from './account/account.module';
 import { UserModule } from './user/user.module';
 import { BookModule } from './book/book.module';
 import { AppRoutingModule } from './app-routing.module';
-import { ApiInterceptor } from './_shared/_services/api-interceptor';
+import { ApiInterceptor } from './_shared/interceptors/api-interceptor';
 
 @NgModule({
   declarations: [
