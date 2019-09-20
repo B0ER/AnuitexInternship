@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { AuthenticationService } from 'src/app/_shared/_services/authentication/authentication.service';
+import { AuthenticationService } from 'src/app/_shared/services/authentication/authentication.service';
 import { Router } from '@angular/router';
 
 @Component({

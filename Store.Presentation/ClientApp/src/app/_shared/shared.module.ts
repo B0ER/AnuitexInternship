@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AuthenticationService } from './_services/authentication/authentication.service';
-import { BookService } from './_services/book/book.service';
-import { UserService } from './_services/user/user.service';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { AuthenticationService } from './services/authentication/authentication.service';
+import { BookService } from './services/book/book.service';
+import { UserService } from './services/user/user.service';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 @NgModule({
