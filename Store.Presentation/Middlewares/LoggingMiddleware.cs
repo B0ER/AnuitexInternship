@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Store.BusinessLogic.Exceptions;
 
 namespace Store.Presentation.Middlewares
 {
@@ -22,6 +24,11 @@ namespace Store.Presentation.Middlewares
             {
                 await _next.Invoke(context);
                 _logger.LogDebug($"[{DateTime.UtcNow}]: {context.Request.Path} - {context.Response.StatusCode}");
+            }
+            catch (PasswordInvalidException passwordEx)
+            {
+                //context.Response.StatusCode = StatusCodes.Status400BadRequest;
+                await context.Response.WriteAsync(JsonConvert.SerializeObject(passwordEx.ResponseModel));
             }
             catch (Exception ex)
             {

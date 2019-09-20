@@ -4,6 +4,11 @@ namespace Store.BusinessLogic.Model.Base
 {
     public class BaseResponse
     {
-        public IEnumerable<string> Errors { get; set; }
+        public IList<string> Errors { get; set; }
+
+        public BaseResponse()
+        {
+            Errors = new List<string>();
+        }
     }
 }

@@ -54,7 +54,13 @@ namespace Store.BusinessLogic.Services
             var result = await _signInManager.PasswordSignInAsync(userRequest.Email, userRequest.Password,
                 userRequest.RememberMe, false);
 
-            if (!result.Succeeded) throw new PasswordInvalidException();
+            if (!result.Succeeded)
+            {
+                var exception = new PasswordInvalidException();
+                exception.ResponseModel = new JwtAuthModel();
+                exception.ResponseModel.Errors.Add("Password is invalid or user is not found");
+                throw exception;
+            }
 
             var user = await _signInManager.UserManager.FindByEmailAsync(userRequest.Email);
             _signInManager.SignInAsync(user, false);
@@ -62,6 +68,7 @@ namespace Store.BusinessLogic.Services
             IEnumerable<string> userRoles = await _signInManager.UserManager.GetRolesAsync(user);
 
             var tokensResponse = CreateJwtAuthModel(user, userRoles);
+            tokensResponse.Roles = userRoles;
 
             return tokensResponse;
         }

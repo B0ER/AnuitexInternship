@@ -20,29 +20,11 @@ export class SignUpComponent implements OnInit {
       PasswordRepeat: ['', [Validators.required, Validators.minLength(6)]]
     },
       {
-        validators: (formGroup: FormGroup) => {
-          const control = formGroup.controls['Password'];
-          const matchingControl = formGroup.controls['PasswordRepeat'];
-
-          if (matchingControl.errors && !matchingControl.errors.mustMatch) {
-            // return if another validator has already found an error on the matchingControl
-            return;
-          }
-
-          // set error on matchingControl if validation fails
-          if (control.value !== matchingControl.value) {
-            control.setErrors({ mustMatch: true });
-            matchingControl.setErrors({ mustMatch: true });
-          } else {
-            control.setErrors(null);
-            matchingControl.setErrors(null);
-          }
-        }
+        validators: this.validatePasswordControl
       });
   }
 
   onSubmit() {
-    //debugger
     this.submitted = true;
 
     if (this.signUpForm.invalid) {
@@ -62,4 +44,22 @@ export class SignUpComponent implements OnInit {
     this.signUpForm.reset();
   }
 
+  private validatePasswordControl(formGroup: FormGroup) {
+    const control = formGroup.controls['Password'];
+    const matchingControl = formGroup.controls['PasswordRepeat'];
+
+    if (matchingControl.errors && !matchingControl.errors.mustMatch) {
+      // return if another validator has already found an error on the matchingControl
+      return;
+    }
+
+    // set error on matchingControl if validation fails
+    if (control.value !== matchingControl.value) {
+      control.setErrors({ mustMatch: true });
+      matchingControl.setErrors({ mustMatch: true });
+    } else {
+      control.setErrors(null);
+      matchingControl.setErrors(null);
+    }
+  }
 }

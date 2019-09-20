@@ -4,6 +4,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { AccountRoutingModule } from './account-routing.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { AppCommonModule } from '../app-common/app-common.module';
 
 
 
@@ -13,6 +14,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     SignUpComponent
   ],
   imports: [
+    AppCommonModule,
     CommonModule,
     AccountRoutingModule,
     ReactiveFormsModule,

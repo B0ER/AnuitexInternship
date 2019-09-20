@@ -9,7 +9,7 @@ import { NotFoundComponent } from '../app-common/not-found/not-found.component';
 const routes: Routes = [
     { path: 'sign-in', component: SignInComponent },
     { path: 'sign-up', component: SignUpComponent },
-    //{ path: '**', component: NotFoundComponent }
+    { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
