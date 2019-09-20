@@ -7,9 +7,9 @@ import { NotFoundComponent } from '../_shared/components/not-found/not-found.com
 
 
 const routes: Routes = [
-    { path: '**', component: NotFoundComponent },
     { path: 'sign-in', component: SignInComponent },
-    { path: 'sign-up', component: SignUpComponent }
+    { path: 'sign-up', component: SignUpComponent },
+    { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
