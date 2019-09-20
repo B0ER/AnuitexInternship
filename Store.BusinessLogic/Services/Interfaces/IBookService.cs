@@ -4,7 +4,7 @@ using Store.BusinessLogic.Model.Books.Response;
 
 namespace Store.BusinessLogic.Services.Interfaces
 {
-    public interface IBookService
+    public interface IPrintingEditionService
     {
         Task<BookModel> GetAllAsync();
         Task<BookItemModel> FindByIdAsync(long id);

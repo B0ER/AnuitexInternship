@@ -8,20 +8,20 @@ using Store.BusinessLogic.Model.Books.Response;
 
 namespace Store.BusinessLogic.Services
 {
-    public class BookService : IBookService
+    public class BookService : IPrintingEditionService
     {
-        private readonly IPrintingEditionRepository _bookRepository;
+        private readonly IPrintingEditionRepository _printingEditionRepository;
         private readonly IAuthorInBookRepository _authorInBookRepository;
 
-        public BookService(IPrintingEditionRepository bookRepository, IAuthorInBookRepository authorInBookRepository)
+        public BookService(IPrintingEditionRepository printingEditionRepository, IAuthorInBookRepository authorInBookRepository)
         {
-            _bookRepository = bookRepository;
+            _printingEditionRepository = printingEditionRepository;
             _authorInBookRepository = authorInBookRepository;
         }
 
         public async Task<BookModel> GetAllAsync()
         {
-            var books = await _bookRepository.GetAllAsync();
+            var books = await _printingEditionRepository.GetAllAsync();
 
             var bookItems = books.Select(book =>
             {
@@ -36,7 +36,7 @@ namespace Store.BusinessLogic.Services
 
         public async Task<BookItemModel> FindByIdAsync(long id)
         {
-            var book = await _bookRepository.FindByIdAsync(id);
+            var book = await _printingEditionRepository.FindByIdAsync(id);
             if (book == null)
             {
                 throw new InvalidOperationException("Book isn't found");
@@ -57,24 +57,24 @@ namespace Store.BusinessLogic.Services
 
         public async Task DeleteByIdAsync(long id)
         {
-            var book = await _bookRepository.FindByIdAsync(id);
+            var book = await _printingEditionRepository.FindByIdAsync(id);
             if (book == null)
             {
                 throw new InvalidOperationException("Book isn't found");
             }
-            await _bookRepository.DeleteByIdAsync(id);
+            await _printingEditionRepository.DeleteByIdAsync(id);
         }
 
         public async Task UpdateAsync(BookUpdateRequest book)
         {
-            var bookUpdate = await _bookRepository.FindByIdAsync(book.BookId);
+            var bookUpdate = await _printingEditionRepository.FindByIdAsync(book.BookId);
             if (bookUpdate == null)
             {
                 throw new InvalidOperationException("Book isn't found");
             }
 
             book.ChangePrintingEdition(bookUpdate);
-            await _bookRepository.UpdateAsync(bookUpdate);
+            await _printingEditionRepository.UpdateAsync(bookUpdate);
         }
     }
 }

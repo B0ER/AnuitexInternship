@@ -10,7 +10,7 @@ namespace Store.BusinessLogic.DependencyInjection
         {
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IAuthorService, AuthorService>();
-            services.AddScoped<IBookService, BookService>();
+            services.AddScoped<IPrintingEditionService, BookService>();
             services.AddScoped<IUserService, UserService>();
         }
     }

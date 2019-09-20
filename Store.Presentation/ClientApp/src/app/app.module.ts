@@ -5,7 +5,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { AccountModule } from './account/account.module';
 import { UserModule } from './user/user.module';
-import { BookModule } from './book/book.module';
+import { PrintingEditionModule } from './printing-edition/printing-edition.module';
 import { AppRoutingModule } from './app-routing.module';
 import { ApiInterceptor } from './_shared/interceptors/api-interceptor';
 
@@ -17,7 +17,7 @@ import { ApiInterceptor } from './_shared/interceptors/api-interceptor';
     AppRoutingModule,
     AccountModule,
     UserModule,
-    BookModule,
+    PrintingEditionModule,
 
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule

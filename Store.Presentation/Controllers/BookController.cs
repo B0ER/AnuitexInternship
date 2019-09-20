@@ -8,10 +8,10 @@ using Store.BusinessLogic.Model.Books.Response;
 namespace Store.Presentation.Controllers
 {
     [Route("api/[controller]")]
-    public class BookController : BaseController
+    public class PrintingEditionController : BaseController
     {
-        private readonly IBookService _bookRepository;
-        public BookController(IBookService bookRepository)
+        private readonly IPrintingEditionService _bookRepository;
+        public PrintingEditionController(IPrintingEditionService bookRepository)
         {
             _bookRepository = bookRepository;
         }

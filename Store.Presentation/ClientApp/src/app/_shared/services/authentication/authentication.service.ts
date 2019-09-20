@@ -2,7 +2,7 @@ import { Injectable, Inject } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { JwtReponse } from '../../models/JwtResponse';
+import { JwtReponse } from '../../models/account/JwtResponse';
 
 @Injectable({
   providedIn: 'root'
