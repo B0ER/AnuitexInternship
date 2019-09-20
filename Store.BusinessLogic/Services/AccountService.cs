@@ -79,14 +79,20 @@ namespace Store.BusinessLogic.Services
 
             var resultConfirm = await _signInManager.UserManager.ConfirmEmailAsync(user, code);
 
-            if (!resultConfirm.Succeeded) throw new EmailCodeInvalidException();
+            if (!resultConfirm.Succeeded)
+            {
+                throw new EmailCodeInvalidException();
+            }
         }
 
         public async Task ChangePasswordAsync(ApplicationUser user, UserChangePasswordModel passwordChangeRequest)
         {
             var result = await _signInManager.UserManager.ChangePasswordAsync(user, passwordChangeRequest.OldPassword,
-                passwordChangeRequest.NewPasswordRepeate);
-            if (!result.Succeeded) throw new PasswordInvalidException();
+                passwordChangeRequest.NewPasswordConfirm);
+            if (!result.Succeeded)
+            {
+                throw new PasswordInvalidException();
+            }
         }
 
         public async Task<string> ResetPasswordAsync(ApplicationUser user)
@@ -100,7 +106,10 @@ namespace Store.BusinessLogic.Services
             var user = await _userRepository.FindByIdAsync(userId);
             var resultRestore = await _signInManager.UserManager.ResetPasswordAsync(user, restoreToken, newPassword);
 
-            if (!resultRestore.Succeeded) throw new PasswordInvalidException();
+            if (!resultRestore.Succeeded)
+            {
+                throw new PasswordInvalidException();
+            }
         }
 
         public async Task LogOutAsync()
@@ -110,7 +119,7 @@ namespace Store.BusinessLogic.Services
 
         public async Task<JwtAuthModel> RefreshTokenAsync(string refreshToken)
         {
-            JwtSecurityToken refreshSecurityToken = new JwtSecurityTokenHandler().ReadJwtToken(refreshToken);
+            var refreshSecurityToken = new JwtSecurityTokenHandler().ReadJwtToken(refreshToken);
             var userIdClaim = refreshSecurityToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
             if (userIdClaim == null)
             {
@@ -125,6 +134,7 @@ namespace Store.BusinessLogic.Services
             var user = await _signInManager.UserManager.FindByIdAsync(userIdClaim.Value);
             IEnumerable<string> userRoles = await _signInManager.UserManager.GetRolesAsync(user);
             var jwtAuth = CreateJwtAuthModel(user, userRoles);
+            jwtAuth.Roles = userRoles;
             return jwtAuth;
         }
 

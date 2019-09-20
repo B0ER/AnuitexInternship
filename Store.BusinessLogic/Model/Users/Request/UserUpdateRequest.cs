@@ -8,7 +8,7 @@ namespace Store.BusinessLogic.Model.Users.Request
         public long UserId { get; set; }
 
         [Required]
-        public string Username { get; set; }
+        public string UserName { get; set; }
         [Required]
         [EmailAddress]
         public string Email { get; set; }

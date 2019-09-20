@@ -4,7 +4,7 @@ using System.Net.Mail;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Options;
-using Store.BusinessLogic.Options;
+using Store.BusinessLogic.Model.Options;
 
 namespace Store.BusinessLogic.Helpers
 {

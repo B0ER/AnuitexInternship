@@ -1,22 +1,21 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Store.DataAccess.DependencyInjection;
-using Store.Presentation.Middlewares;
-using System.IO;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 using Store.BusinessLogic.Common;
 using Store.BusinessLogic.DependencyInjection;
-using Store.BusinessLogic.Options;
+using Store.BusinessLogic.Model.Options;
+using Store.DataAccess.DependencyInjection;
 using Store.DataAccess.Entities;
 using Store.DataAccess.Initialization;
+using Store.Presentation.Middlewares;
+using System.IO;
 
 namespace Store.Presentation
 {
@@ -24,17 +23,16 @@ namespace Store.Presentation
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+        private readonly IConfiguration _configuration;
+        private const string _myAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             //configure jwt setting
-            services.Configure<JwtAuthOptions>(Configuration.GetSection("JwtAuthOptions"));
+            services.Configure<JwtAuthOptions>(_configuration.GetSection("JwtAuthOptions"));
             var serviceProvider = services.BuildServiceProvider();
             var jwtAuthConfig = serviceProvider.GetRequiredService<IOptions<JwtAuthOptions>>().Value;
 
@@ -51,15 +49,12 @@ namespace Store.Presentation
                 });
 
 
-            //add logger provider
             var logProvider = new ApplicationLoggerProvider(Path.Combine(Directory.GetCurrentDirectory(), "log.txt"));
             services.AddLogging(factory => factory.AddProvider(logProvider));
 
-            //add identity
-            services.AddApplicationDatabase(Configuration);
+            services.AddApplicationDatabase(_configuration);
 
-            //add EmailOptions
-            services.Configure<EmailOptions>(Configuration.GetSection("SmtpConfiguration"));
+            services.Configure<EmailOptions>(_configuration.GetSection("SmtpConfiguration"));
             services.AddEmailSender();
 
             services.AddRepository();
@@ -68,7 +63,7 @@ namespace Store.Presentation
 
             services.AddCors(options =>
             {
-                options.AddPolicy(MyAllowSpecificOrigins,
+                options.AddPolicy(_myAllowSpecificOrigins,
                     builder =>
                     {
                         builder.AllowAnyOrigin()
@@ -79,14 +74,12 @@ namespace Store.Presentation
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, RoleManager<Role> roleManager, UserManager<ApplicationUser> userManager)
         {
             BaseSeedData.InitIfNotExist(roleManager, userManager).Wait();
@@ -97,7 +90,6 @@ namespace Store.Presentation
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -108,7 +100,7 @@ namespace Store.Presentation
             app.UseMiddleware<LoggingMiddleware>();
             app.UseAuthentication();
 
-            app.UseCors(MyAllowSpecificOrigins);
+            app.UseCors(_myAllowSpecificOrigins);
 
             app.UseMvc(routes =>
             {
@@ -119,9 +111,6 @@ namespace Store.Presentation
 
             app.UseSpa(spa =>
             {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
                 spa.Options.SourcePath = "ClientApp";
 
                 if (env.IsDevelopment())

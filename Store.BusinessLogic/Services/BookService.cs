@@ -30,7 +30,7 @@ namespace Store.BusinessLogic.Services
                 return bookItem;
             });
 
-            var bookResponse = new BookModel { Books = bookItems };
+            var bookResponse = new BookModel { Items = bookItems };
             return bookResponse;
         }
 

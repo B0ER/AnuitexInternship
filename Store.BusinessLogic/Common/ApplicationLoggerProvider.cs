@@ -5,7 +5,7 @@ namespace Store.BusinessLogic.Common
 {
     public class ApplicationLoggerProvider : ILoggerProvider
     {
-        private string _filePath;
+        private readonly string _filePath;
         private ILogger _logger;
 
         public ApplicationLoggerProvider(string filePath)
@@ -17,11 +17,7 @@ namespace Store.BusinessLogic.Common
         }
         public ILogger CreateLogger(string categoryName)
         {
-            if (_logger == null)
-            {
-                _logger = new ApplicationLogger(_filePath);
-            }
-            return _logger;
+            return _logger ?? (_logger = new ApplicationLogger(_filePath));
         }
 
         public void Dispose()

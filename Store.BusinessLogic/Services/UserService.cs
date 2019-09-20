@@ -23,9 +23,11 @@ namespace Store.BusinessLogic.Services
 
         public async Task AddAsync(UserCreateRequest userCreateRequest)
         {
-            var newUser = new ApplicationUser();
-            newUser.UserName = userCreateRequest.Email;
-            newUser.EmailConfirmed = true;
+            var newUser = new ApplicationUser
+            {
+                UserName = userCreateRequest.Email,
+                EmailConfirmed = true
+            };
             await _userRepository.AddAsync(newUser, userCreateRequest.Password);
         }
 
@@ -36,6 +38,7 @@ namespace Store.BusinessLogic.Services
 
         public async Task DeleteByIdAsync(long id)
         {
+            //todo: write isRemove
             await _userRepository.DeleteByIdAsync(id);
         }
 
@@ -57,7 +60,7 @@ namespace Store.BusinessLogic.Services
         public async Task UpdateAsync(UserUpdateRequest item)
         {
             var userUpdateDb = await _userRepository.FindByIdAsync(item.UserId);
-            userUpdateDb.UserName = item.Username;
+            userUpdateDb.UserName = item.UserName;
             userUpdateDb.Email = item.Email;
             userUpdateDb.PasswordHash  =_userManager.PasswordHasher.HashPassword(userUpdateDb, item.Password);
 
@@ -67,7 +70,11 @@ namespace Store.BusinessLogic.Services
         public async Task<UserItemModel> GetProfileAsync(ClaimsPrincipal user)
         {
             var applicationUser = await _userManager.GetUserAsync(user);
-            var userItem = new UserItemModel { Id = applicationUser.Id, UserName = applicationUser.UserName };
+            var userItem = new UserItemModel
+            {
+                Id = applicationUser.Id,
+                UserName = applicationUser.UserName
+            };
             return userItem;
         }
     }

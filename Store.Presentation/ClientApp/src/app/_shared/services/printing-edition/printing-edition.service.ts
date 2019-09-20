@@ -8,23 +8,23 @@ export class PrintingEditionService {
 
   constructor(private httpClient: HttpClient, @Inject('BASE_URL') private baseUrl: string) { }
 
-  getAll(headers: HttpHeaders) {
-    return this.httpClient.get(`${this.baseUrl}api/book/`, { headers });
+  getAll() {
+    return this.httpClient.get(`${this.baseUrl}api/book/`);
   }
 
-  findById(id: string, headers: HttpHeaders) {
-    return this.httpClient.get(`${this.baseUrl}api/book/${id}`, { headers });
+  findById(id: string) {
+    return this.httpClient.get(`${this.baseUrl}api/book/${id}`);
   }
 
-  create(headers: HttpHeaders) {
-    return this.httpClient.put(`${this.baseUrl}api/book/`, {}, { headers });
+  create() {
+    return this.httpClient.put(`${this.baseUrl}api/book/`, {});
   }
 
-  update(id: string, headers: HttpHeaders) {
-    return this.httpClient.patch(`${this.baseUrl}api/book/${id}`, {}, { headers });
+  update(id: string) {
+    return this.httpClient.patch(`${this.baseUrl}api/book/${id}`, {});
   }
 
-  delete(id: string, headers: HttpHeaders) {
-    return this.httpClient.delete(`${this.baseUrl}api/book/${id}`, { headers });
+  delete(id: string) {
+    return this.httpClient.delete(`${this.baseUrl}api/book/${id}`);
   }
 }

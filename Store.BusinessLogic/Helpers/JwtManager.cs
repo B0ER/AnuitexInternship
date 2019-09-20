@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Store.BusinessLogic.Options;
+using Store.BusinessLogic.Model.Options;
 using Store.DataAccess.Entities;
 
 namespace Store.BusinessLogic.Helpers

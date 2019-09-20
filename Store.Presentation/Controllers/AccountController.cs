@@ -29,7 +29,7 @@ namespace Store.Presentation.Controllers
         [HttpPost("sign-in")]
         public async Task<ActionResult<JwtAuthModel>> SignInAsync(UserSignInModel userRequest)
         {
-            JwtAuthModel token = await _accountService.SignInAsync(userRequest);
+            var token = await _accountService.SignInAsync(userRequest);
             return token;
         }
 

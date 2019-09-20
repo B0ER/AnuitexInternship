@@ -1,4 +1,6 @@
-export class JwtReponse {
+import { BaseResponse } from "../base/BaseResponse";
+
+export class JwtReponse extends BaseResponse {
     private _accessToken: string;
     private _refreshToken: string;
     private _roles: string[];

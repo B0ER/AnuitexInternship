@@ -5,6 +5,6 @@ namespace Store.BusinessLogic.Model.Books.Response
 {
     public class BookModel : BaseResponse
     {
-        public IEnumerable<BookItemModel> Books { get; set; }
+        public IEnumerable<BookItemModel> Items { get; set; }
     }
 }

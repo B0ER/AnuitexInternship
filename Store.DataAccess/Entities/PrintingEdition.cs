@@ -10,6 +10,7 @@ namespace Store.DataAccess.Entities
         public int Price { get; set; }
         public int Status { get; set; }
         public int Currency { get; set; }
+        //todo: rewrite to enum
         public int Type { get; set; }
 
         public virtual IList<AuthorInBook> AuthorsBooks { get; set; }

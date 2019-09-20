@@ -2,14 +2,13 @@
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Store.BusinessLogic.Options
+namespace Store.BusinessLogic.Model.Options
 {
     public class JwtAuthOptions
     {
         public string Issuer { get; set; }
         public string Audience { get; set; }
-        public int ExpireMinutes { get; set; }
-        public TimeSpan AccessTokenExpiration { get; set; } = TimeSpan.FromMinutes(10);
+        public TimeSpan AccessTokenExpiration { get; set; } = TimeSpan.FromSeconds(10);
         public TimeSpan RefreshTokenExpiration { get; set; } = TimeSpan.FromDays(60);
         public string Key { get; set; }
 

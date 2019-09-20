@@ -27,7 +27,6 @@ namespace Store.Presentation.Middlewares
             }
             catch (PasswordInvalidException passwordEx)
             {
-                //context.Response.StatusCode = StatusCodes.Status400BadRequest;
                 await context.Response.WriteAsync(JsonConvert.SerializeObject(passwordEx.ResponseModel));
             }
             catch (Exception ex)

@@ -6,8 +6,8 @@ namespace Store.BusinessLogic.Common
 {
     public class ApplicationLogger : ILogger
     {
-        private object _lock = new object();
-        private string _filePath;
+        private readonly object _lock = new object();
+        private readonly string _filePath;
 
         public ApplicationLogger(string filePath)
         {
@@ -26,12 +26,13 @@ namespace Store.BusinessLogic.Common
 
         public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
         {
-            if (formatter != null)
+            if (formatter == null)
             {
-                lock (_lock)
-                {
-                    File.AppendAllText(_filePath, formatter(state, exception) + Environment.NewLine);
-                }
+                return;
+            }
+            lock (_lock)
+            {
+                File.AppendAllText(_filePath, formatter(state, exception) + Environment.NewLine);
             }
         }
     }

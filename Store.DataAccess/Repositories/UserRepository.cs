@@ -10,7 +10,7 @@ namespace Store.DataAccess.Repositories
 {
     public class UserRepository : BaseRepository<ApplicationUser>, IUserRepository
     {
-        private UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
         public UserRepository(ApplicationDbContext db, UserManager<ApplicationUser> userManager) : base(db)
         {

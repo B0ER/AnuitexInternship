@@ -1,4 +1,4 @@
-﻿namespace Store.BusinessLogic.Options
+﻿namespace Store.BusinessLogic.Model.Options
 {
     public class EmailOptions
     {

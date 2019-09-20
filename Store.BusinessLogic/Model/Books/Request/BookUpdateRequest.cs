@@ -15,6 +15,7 @@ namespace Store.BusinessLogic.Model.Books.Request
         public int? Currency { get; set; }
         public int? Type { get; set; }
 
+        //todo: вынести в хелпер
         public void ChangePrintingEdition(PrintingEdition updatePrintingEdition)
         {
             if (BookId != updatePrintingEdition.Id)

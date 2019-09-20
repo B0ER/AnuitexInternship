@@ -17,7 +17,7 @@ namespace Store.DataAccess.Repositories
 
         public async Task<IEnumerable<Author>> GetAuthorsByBookIdAsync(long bookId)
         {
-            return await _db.AuthorInBooks.Where(aib => aib.PrintingEdition.Id == bookId)
+            return await _dbContext.AuthorInBooks.Where(aib => aib.PrintingEdition.Id == bookId)
                 .Select(aib => aib.Author)
                 .ToListAsync();
         }
